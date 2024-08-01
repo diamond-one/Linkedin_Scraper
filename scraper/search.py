@@ -8,6 +8,7 @@ from selenium.common.exceptions import StaleElementReferenceException, NoSuchEle
 import sys
 import os
 import csv
+from datetime import datetime
 import re
 
 # Include the parent directory in sys.path to access LinkedIn class
@@ -190,9 +191,10 @@ class Search(LinkedIn):
                     seniority = "N/A"
                     print(f"Error extracting seniority: {e} URL: {job_posting_url}")
 
+
                 # Extract posted time
                 try:
-                    posted_time_element = self.webpage.find_element(By.XPATH, '//*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/span[3]')
+                    posted_time_element = self.webpage.find_element(By.XPATH, '//*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/span[3]/strong/span')
                     posted_time = posted_time_element.text if posted_time_element else "N/A"
                 except NoSuchElementException:
                     try:
@@ -221,10 +223,12 @@ class Search(LinkedIn):
                     posted_time_formatted = "N/A"
                     print(f"Error formatting posted time: {e} URL: {job_posting_url}")
 
+
                 # Extract number of applicants
                 try:
                     applicants_element = self.webpage.find_element(By.XPATH, '//*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/span[5]')
-                    applicants = applicants_element.text if applicants_element else "N/A"
+                    applicants_raw = applicants_element.text if applicants_element else "N/A"
+                    applicants = re.search(r'\d+', applicants_raw.replace(',', '')).group() if re.search(r'\d+', applicants_raw.replace(',', '')) else "0"
                 except Exception as e:
                     applicants = "N/A"
                     print(f"Error extracting number of applicants: {e} URL: {job_posting_url}")
@@ -232,7 +236,12 @@ class Search(LinkedIn):
                 # Extract number of employees
                 try:
                     employees_element = self.webpage.find_element(By.XPATH, '//*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div[1]/div/section/section/div[1]/div[2]/span[1]')
-                    employees = employees_element.text if employees_element else "N/A"
+                    employees_raw = employees_element.text if employees_element else "N/A"
+                    employees_match = re.findall(r'\d+', employees_raw.replace(',', ''))
+                    if employees_match:
+                        employees = '-'.join(employees_match)
+                    else:
+                        employees = "N/A"
                 except Exception as e:
                     employees = "N/A"
                     print(f"Error extracting number of employees: {e} URL: {job_posting_url}")
