@@ -1,25 +1,32 @@
-import time
 import sys
 import os
-# Include the parent directory in sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from scraper.LinkedIn import LinkedIn
-from search import LinkedInSearcher
+
+from scraper.search import Search
 
 if __name__ == "__main__":
-    job_title = "Data Scientist"  # Specify the job title
-    
-    # Create LinkedIn and LinkedInSearcher instances
-    linkedin = LinkedIn(requests_per_minute=20)
-    searcher = LinkedInSearcher(linkedin)
+    # Define your search query here
+    query = {
+        'keywords': 'Data Analyst',
+        'location': 'European Union'
+    }
+
+    # Create an instance of the Search class and start the job search
+    search = Search(query)
 
     try:
-        print("Please log in to LinkedIn manually. The script will continue in 30 seconds...")
-        time.sleep(30)  # Pause for 30 seconds to allow manual login
-
-        searcher.search_job(job_title)
-        searcher.extract_jobs()
+        # Iterate through all pages and extract job data
+        all_job_data = []
+        while True:
+            search.scroll_to_bottom()  # Scroll to load all jobs
+            job_data = search.extract_job_data()
+            all_job_data.extend(job_data)
+            search.save_to_csv(job_data, append=True)  # Save data after each page
+            if not search.click_next_page():  # Try clicking 'Next', if fails break the loop
+                break
+        
     except Exception as e:
         print(f"An error occurred: {e}")
     finally:
-        linkedin.close()
+        search.save_to_csv(all_job_data, append=True)  # Final save
+        search.close()
