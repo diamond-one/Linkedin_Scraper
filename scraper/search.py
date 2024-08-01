@@ -1,4 +1,5 @@
 import time
+from datetime import datetime, timedelta
 import urllib.parse
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -7,7 +8,6 @@ from selenium.common.exceptions import StaleElementReferenceException, NoSuchEle
 import sys
 import os
 import csv
-from datetime import datetime
 import re
 
 # Include the parent directory in sys.path to access LinkedIn class
@@ -192,11 +192,34 @@ class Search(LinkedIn):
 
                 # Extract posted time
                 try:
-                    posted_time_element = self.webpage.find_element(By.XPATH, '//*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/span[3]/strong/span')
+                    posted_time_element = self.webpage.find_element(By.XPATH, '//*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/span[3]')
                     posted_time = posted_time_element.text if posted_time_element else "N/A"
+                except NoSuchElementException:
+                    try:
+                        posted_time_element = self.webpage.find_element(By.XPATH, '//*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/span[3]/span[2]')
+                        posted_time = posted_time_element.text if posted_time_element else "N/A"
+                    except Exception as e:
+                        posted_time = "N/A"
+                        print(f"Error extracting posted time: {e} URL: {job_posting_url}")
+
+                # Parse and format posted time
+                try:
+                    if "hour" in posted_time or "hours" in posted_time:
+                        posted_time_formatted = datetime.today().strftime('%Y-%m-%d')
+                    elif "day" in posted_time or "days" in posted_time:
+                        days_ago = int(re.search(r'\d+', posted_time).group())
+                        posted_time_formatted = (datetime.today() - timedelta(days=days_ago)).strftime('%Y-%m-%d')
+                    elif "week" in posted_time or "weeks" in posted_time:
+                        weeks_ago = int(re.search(r'\d+', posted_time).group())
+                        posted_time_formatted = (datetime.today() - timedelta(weeks=weeks_ago)).strftime('%Y-%m-%d')
+                    elif "month" in posted_time or "months" in posted_time:
+                        months_ago = int(re.search(r'\d+', posted_time).group())
+                        posted_time_formatted = (datetime.today() - timedelta(days=months_ago*30)).strftime('%Y-%m-%d')
+                    else:
+                        posted_time_formatted = "N/A"
                 except Exception as e:
-                    posted_time = "N/A"
-                    print(f"Error extracting posted time: {e} URL: {job_posting_url}")
+                    posted_time_formatted = "N/A"
+                    print(f"Error formatting posted time: {e} URL: {job_posting_url}")
 
                 # Extract number of applicants
                 try:
@@ -236,8 +259,8 @@ class Search(LinkedIn):
                 job_description = f'"{job_description}"'
                 
                 # Append the collected data to the job_data list
-                job_data.append([title, company, city, country, remote, seniority, posted_time, today_date, applicants, employees, industry, job_posting_url, job_id, job_description])
-                print(f"Extracted job - Title: {title}, Company: {company}, City: {city}, Country: {country}, Type: {remote}, Seniority: {seniority}, Posted: {posted_time}, Collected Date: {today_date}, Applicants: {applicants}, Employees: {employees}, Industry: {industry}, Job URL: {job_posting_url}, Job ID: {job_id}, Job Description: {job_description}")
+                job_data.append([title, company, city, country, remote, seniority, posted_time_formatted, today_date, applicants, employees, industry, job_posting_url, job_id, job_description])
+                print(f"Extracted job - Title: {title}, Company: {company}, City: {city}, Country: {country}, Type: {remote}, Seniority: {seniority}, Posted: {posted_time_formatted}, Collected Date: {today_date}, Applicants: {applicants}, Employees: {employees}, Industry: {industry}, Job URL: {job_posting_url}, Job ID: {job_id}, Job Description: {job_description}")
 
             except StaleElementReferenceException as e:
                 print(f"Stale element reference: {e}. Skipping this job element.")
