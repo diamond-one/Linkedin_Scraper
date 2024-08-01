@@ -1,0 +1,374 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "Configuration avancée"
+   },
+   "alert_icon_alt": {
+      "message": "Icône d'alerte"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "Réessayer"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "Connexion perdue"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "La connexion entre \u003Cspan class=\"product-info\">{%productname%}\u003C/span> et l'extension de navigateur a été perdue. Vérifiez votre connexion internet et réessayez. Notez que l'extension ne fonctionnera pas si \u003Cspan class=\"product-info\">{%productname%}\u003C/span> n'est pas installé."
+   },
+   "alert_page_expired_license_btn": {
+      "message": "Ouvrir \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "Abonnement arrivé à expiration"
+   },
+   "alert_page_expired_license_text": {
+      "message": "Votre abonnement est arrivé à expiration et vous ne pouvez plus accéder à l'extension Confidentialité et sécurité du navigateur ESET. Pour résoudre ce problème, ouvrez \u003Cspan class=\"product-info\">{%productname%}\u003C/span> et suivez les instructions fournies."
+   },
+   "alert_page_missing_product_header": {
+      "message": "Produit manquant"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "Aucun produit ESET installé sur votre ordinateur ne prend actuellement en charge l'extension Confidentialité et sécurité du navigateur ESET."
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "Pour en savoir plus sur l'extension, les produits ESET pris en charge, les navigateurs pris en charge et l'installation, consultez notre \u003Cspan class=\"online-help-link\">aide en ligne.\u003C/span>"
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "Navigateur non pris en charge"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "Il semble que vous utilisiez un navigateur que nous ne prenons pas encore en charge. Pour utiliser l'extension Confidentialité et sécurité du navigateur ESET, veuillez installer un navigateur pris en charge."
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">Voir les navigateurs pris en charge\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "Icône de bannière d'état OK"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "Icône de bannière d'état de redémarrage"
+   },
+   "browser_restart_needed_p": {
+      "message": "Un redémarrage du navigateur est nécessaire pour que cette modification soit prise en compte."
+   },
+   "browsing_cleanup_all_data_btn": {
+      "message": "Tous"
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "Personnalisé"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "Historique de navigation"
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "Historique des téléchargements"
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "Cookies et données de site web"
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "Images et fichiers mis en cache"
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "Mots de passe et données de connexion"
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "Données de remplissage automatique des formulaires"
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "Type de données"
+   },
+   "browsing_cleanup_header": {
+      "message": "Nettoyage du navigateur"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "Supprimez les données de navigation ou configurez des nettoyages réguliers. Restez connecté aux sites web sélectionnés en \u003Cspan>les ajoutant à une liste.\u003C/span>"
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "Privé"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "Les données privées comprennent l'historique de navigation, l'historique des téléchargements, les cookies et les données des sites web, les données de remplissage automatique des formulaires."
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "Tout le temps"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "Cette session de navigation"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "Dernière heure"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "24 dernières heures"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "Dernière semaine"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "Dernier mois"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "Sélectionner une période"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "Supprimer les données"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "Supprimé(e)"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "Suppression"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "Périodes"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "Nettoyage ponctuel"
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "Nettoyage régulier"
+   },
+   "browsing_regular_cleanup_save_btn": {
+      "message": "Enregistrer les paramètres"
+   },
+   "browsing_regular_cleanup_save_btn_saved_text": {
+      "message": "Enregistré"
+   },
+   "browsing_regular_cleanup_save_btn_saving_text": {
+      "message": "Enregistrement en cours"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "Données antérieures à"
+   },
+   "close_icon_alt": {
+      "message": "Icône Fermer"
+   },
+   "direction": {
+      "message": "LTR"
+   },
+   "eset_logo_alt": {
+      "message": "Logo ESET"
+   },
+   "eula_link": {
+      "message": "Contrat de licence de l'utilisateur final"
+   },
+   "extension_description": {
+      "message": "Bénéficiez d'une protection étendue du navigateur avec l'extension Confidentialité et sécurité du navigateur d'ESET."
+   },
+   "help_support_menu_item": {
+      "message": "Aide et assistance"
+   },
+   "info_icon_alt": {
+      "message": "Icône d'information"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "Nettoyez les métadonnées chaque fois que vous chargez une image."
+   },
+   "metadata_cleaner_func_header": {
+      "message": "Nettoyer les données de vos fichiers"
+   },
+   "metadata_cleaner_header": {
+      "message": "Nettoyage des métadonnées"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "Supprimez les métadonnées contenant des informations privées lors du partage de fichiers en ligne."
+   },
+   "metadata_notifications_func_header": {
+      "message": "Afficher les notifications après le nettoyage"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "Recevez des notifications dans le navigateur."
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "Icône d'avertissement d'état des métadonnées"
+   },
+   "notification_message_text": {
+      "message": "Métadonnées de fichier chargées nettoyées :"
+   },
+   "overview_menu_item": {
+      "message": "Aperçu"
+   },
+   "privacy_policy_link": {
+      "message": "Politique de confidentialité"
+   },
+   "product_name": {
+      "message": "CONFIDENTIALITÉ ET SÉCURITÉ DU NAVIGATEUR"
+   },
+   "product_title": {
+      "message": "Confidentialité et sécurité du navigateur ESET"
+   },
+   "product_version": {
+      "message": "Version :"
+   },
+   "progress_logo_alt": {
+      "message": "Logo Progress. Protected."
+   },
+   "scan_search_result_func_description": {
+      "message": "Analysez les résultats de la recherche pour déterminer ceux sur lesquels vous pouvez cliquer en toute sécurité."
+   },
+   "scan_search_result_func_header": {
+      "message": "Analyser les résultats de la recherche"
+   },
+   "secure_search_green_popup_text": {
+      "message": "Ce site web est sûr"
+   },
+   "secure_search_header": {
+      "message": "Recherche sécurisée"
+   },
+   "secure_search_red_popup_text": {
+      "message": "Ce site web n'est pas sûr"
+   },
+   "secure_search_subheader": {
+      "message": "Découvrez quels résultats de recherche peuvent être ouverts en toute sécurité."
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "Contenu potentiellement indésirable détecté"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "Sombre"
+   },
+   "settings_page_appearance_description": {
+      "message": "Personnalisez la couleur de l'interface en fonction de vos préférences. Vous pouvez choisir une couleur claire ou foncée."
+   },
+   "settings_page_appearance_header": {
+      "message": "Apparence"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "Clair"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "Mode couleur"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "Domaines suggérés en fonction des onglets actuellement ouverts dans votre navigateur. Si vous ne voyez pas tous ces onglets dans la liste ci-dessous, \u003Cspan class=\"refresh-list\">actualisez la liste.\u003C/span>"
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "Ajouter"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "Conserver la session actuelle de navigation pour les onglets ouverts après le nettoyage"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "Ajoutez les sites web pour lesquels vous souhaitez accepter les cookies et rester connecté même après avoir nettoyé votre navigateur."
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "Entrez une URL à ajouter"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "Moins"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "Plus"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "Paramètres de cookie avancés"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "*Cela ne ressemble pas à une URL valide."
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "Autoriser"
+   },
+   "settings_page_website_settings_ask_text": {
+      "message": "Demander (par défaut)"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "Bloquer"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "Passez en revue les sites web qui peuvent vous demander d'utiliser votre appareil photo."
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "Caméra"
+   },
+   "settings_page_website_settings_description": {
+      "message": "Accédez facilement aux autorisations des sites web et gérez-les afin de contrôler les informations que les sites web peuvent utiliser."
+   },
+   "settings_page_website_settings_header": {
+      "message": "Examen des paramètres de sites web"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "Passez en revue les sites web qui peuvent vous demander votre localisation."
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "Emplacement"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "Passez en revue les sites web qui peuvent vous demander d'utiliser votre microphone."
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "Microphone"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "Examinez les sites web qui peuvent demander l'envoi de notifications."
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "Notifications"
+   },
+   "setup_btn": {
+      "message": "CONFIGURER"
+   },
+   "summary_metadata_stats_text": {
+      "message": "Supprimez les métadonnées contenant des informations privées."
+   },
+   "summary_ok_header": {
+      "message": "Votre navigation est protégée"
+   },
+   "summary_privacy_stats_text": {
+      "message": "Supprimez vos données de navigation."
+   },
+   "summary_restart_header": {
+      "message": "Un redémarrage du navigateur est nécessaire"
+   },
+   "summary_search_stats_text": {
+      "message": "Vérifiez la sécurité des résultats de recherche."
+   },
+   "summary_website_setting_header": {
+      "message": "Examen des paramètres de sites web"
+   },
+   "summary_website_setting_text": {
+      "message": "Gérez les autorisations des sites web."
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "Supprimez les données de navigation ou configurez un nettoyage régulier."
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "Gardez l'extension visible en cliquant sur l'icône d'extension ci-dessus et en l'épinglant dans le navigateur pour en faciliter l'accès."
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "Gardez l'extension visible en cliquant sur l'icône d'extension ci-dessus et en l'ajoutant à la barre d'outils du navigateur pour en faciliter l'accès."
+   },
+   "welcome_page_header_text": {
+      "message": "Merci d'avoir activé l'extension \u003Cspan>Confidentialité et sécurité du navigateur ESET\u003C/span> dans votre navigateur"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "Nettoyage des métadonnées*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "Retirez les informations privées des fichiers lorsque vous les partagez en ligne."
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "Icône d'épingle"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "Icône de module d'extension"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "Icône de flèche droite"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "Vérifiez la sécurité des résultats de recherche avant de les ouvrir."
+   },
+   "welcome_page_subheader": {
+      "message": "Pour commencer à tirer parti d'une expérience de navigation plus sûre, cliquez sur l'icône d'extension en regard de la barre d'adresses. Dans certains navigateurs, il est possible qu'elle soit masquée dans le menu du navigateur."
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*Disponible dans ESET HOME Security Ultimate"
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "Examen des paramètres de sites web*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "Contrôlez les autorisations des sites web pour les notifications, la localisation, l'appareil photo et le microphone."
+   }
+}

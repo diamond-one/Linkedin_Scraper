@@ -1,0 +1,374 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "Rozšírené nastavenia"
+   },
+   "alert_icon_alt": {
+      "message": "Ikona upozornenia"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "Skúsiť znova"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "Strata spojenia"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "Spojenie medzi bezpečnostným produktom \u003Cspan class=\"product-info\">{%productname%}\u003C/span> a rozšírením prehliadača sa prerušilo. Skontrolujte svoje internetové pripojenie a skúste to znova. Upozorňujeme, že rozšírenie nebude bez nainštalovaného produktu \u003Cspan class=\"product-info\">{%productname%}\u003C/span> fungovať."
+   },
+   "alert_page_expired_license_btn": {
+      "message": "Otvoriť \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "Predplatné so skončenou platnosťou"
+   },
+   "alert_page_expired_license_text": {
+      "message": "Vaše predplatné sa skončilo a už nemáte prístup k rozšíreniu ESET Ochrana súkromia v prehliadači. Ak chcete tento problém vyriešiť, otvorte \u003Cspan class=\"product-info\">{%productname%}\u003C/span> a postupujte podľa uvedených pokynov."
+   },
+   "alert_page_missing_product_header": {
+      "message": "Chýbajúci produkt"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "Vo vašom počítači aktuálne nie je nainštalovaný žiadny bezpečnostný produkt od spoločnosti ESET, ktorý by podporoval rozšírenie Ochrana súkromia v prehliadači."
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "Viac informácií o samotnom rozšírení, podporovaných produktoch ESET, podporovaných prehliadačoch a inštalácii nájdete na stránkach \u003Cspan class=\"online-help-link\">Online pomocníka\u003C/span>."
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "Nepodporovaný prehliadač"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "Zdá sa, že používate webový prehliadač, ktorý zatiaľ nepodporujeme. Ak chcete používať rozšírenie ESET Ochrana súkromia v prehliadači, nainštalujte si podporovaný prehliadač."
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">Zobraziť podporované prehliadače\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "Ikona baneru stavu „OK“"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "Ikona baneru stavu „Reštart“"
+   },
+   "browser_restart_needed_p": {
+      "message": "Aby sa táto zmena prejavila, je nutné reštartovať prehliadač."
+   },
+   "browsing_cleanup_all_data_btn": {
+      "message": "Všetky"
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "Vlastné"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "História prehliadania"
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "História sťahovania"
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "Súbory cookie a údaje webových stránok"
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "Obrázky a súbory vo vyrovnávacej pamäti"
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "Heslá a prihlasovacie údaje"
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "Údaje automatického vypĺňania formulárov"
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "Typ údajov"
+   },
+   "browsing_cleanup_header": {
+      "message": "Čistenie prehliadača"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "Odstráňte údaje prehliadania alebo nastavte pravidelné čistenie. Ak chcete na vybraných webových stránkach zostať prihlásený, \u003Cspan>pridajte ich do zoznamu\u003C/span>."
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "Súkromné"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "Súkromné údaje zahŕňajú históriu prehliadania, históriu sťahovania, súbory cookie, údaje webových stránok a údaje automatického vypĺňania formulárov."
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "Celé obdobie"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "Táto relácia prehliadania"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "Posledná hodina"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "Posledných 24 hodín"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "Posledný týždeň"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "Posledný mesiac"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "Vyberte časový rozsah"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "Odstrániť údaje"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "Odstránené"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "Zmazanie"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "Časové rozsahy"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "Jednorazové čistenie"
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "Pravidelné čistenie"
+   },
+   "browsing_regular_cleanup_save_btn": {
+      "message": "Uložiť nastavenia"
+   },
+   "browsing_regular_cleanup_save_btn_saved_text": {
+      "message": "Uložené"
+   },
+   "browsing_regular_cleanup_save_btn_saving_text": {
+      "message": "Ukladá sa"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "Údaje staršie než"
+   },
+   "close_icon_alt": {
+      "message": "Ikona zavretia"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "eset_logo_alt": {
+      "message": "Logo ESET"
+   },
+   "eula_link": {
+      "message": "Licenčná dohoda s koncovým používateľom"
+   },
+   "extension_description": {
+      "message": "Využite výhody vylepšeného zabezpečenia prehliadača vďaka rozšíreniu Ochrana súkromia v prehliadači."
+   },
+   "help_support_menu_item": {
+      "message": "Pomocník a podpora"
+   },
+   "info_icon_alt": {
+      "message": "Informačná ikona"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "Odstráňte metadáta z každého nahraného obrázka."
+   },
+   "metadata_cleaner_func_header": {
+      "message": "Odstrániť údaje zo súborov"
+   },
+   "metadata_cleaner_header": {
+      "message": "Čistenie metadát"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "Odstráňte zo súborov zdieľaných na internete metadáta so súkromnými informáciami."
+   },
+   "metadata_notifications_func_header": {
+      "message": "Zobraziť oznámenia po vyčistení"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "Dostávajte oznámenia v prehliadači."
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "Ikona upozornenia na stav metadát"
+   },
+   "notification_message_text": {
+      "message": "Vyčistené metadáta nahraného súboru:"
+   },
+   "overview_menu_item": {
+      "message": "Prehľad"
+   },
+   "privacy_policy_link": {
+      "message": "Zásady ochrany osobných údajov"
+   },
+   "product_name": {
+      "message": "OCHRANA SÚKROMIA V PREHLIADAČI"
+   },
+   "product_title": {
+      "message": "ESET Ochrana súkromia v prehliadači"
+   },
+   "product_version": {
+      "message": "Verzia:"
+   },
+   "progress_logo_alt": {
+      "message": "Logo Progress. Protected."
+   },
+   "scan_search_result_func_description": {
+      "message": "Skontrolujte výsledky vyhľadávania a zistite, na ktoré z nich môžete bezpečne kliknúť."
+   },
+   "scan_search_result_func_header": {
+      "message": "Kontrolovať výsledky vyhľadávania"
+   },
+   "secure_search_green_popup_text": {
+      "message": "Táto webová stránka je bezpečná"
+   },
+   "secure_search_header": {
+      "message": "Bezpečné vyhľadávanie"
+   },
+   "secure_search_red_popup_text": {
+      "message": "Táto webová stránka nie je bezpečná"
+   },
+   "secure_search_subheader": {
+      "message": "Pozrite si, ktoré výsledky vyhľadávania je bezpečné otvoriť."
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "Našiel sa potenciálne nechcený obsah"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "Tmavý"
+   },
+   "settings_page_appearance_description": {
+      "message": "Prispôsobte si farbu rozhrania podľa svojich preferencií. Môžete si vybrať medzi svetlým alebo tmavým režimom."
+   },
+   "settings_page_appearance_header": {
+      "message": "Vzhľad"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "Svetlý"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "Farebný režim"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "Navrhované domény na základe kariet, ktoré máte momentálne otvorené v prehliadači. Ak v nasledujúcom zozname nevidíte všetky aktuálne otvorené karty, \u003Cspan class=\"refresh-list\">obnovte zoznam\u003C/span>."
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "Pridať"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "Po vyčistení zachovať aktuálnu reláciu prehliadania pre otvorené karty"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "Pridajte webové stránky, na ktorých chcete prijímať súbory cookie a zostať prihlásený aj po vyčistení prehliadača."
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "Zadajte URL adresu, ktorú chcete pridať"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "Mínus"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "Plus"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "Pokročilé nastavenia súborov cookie"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "*Neplatná URL adresa."
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "Povoliť"
+   },
+   "settings_page_website_settings_ask_text": {
+      "message": "Spýtať sa (predvolené)"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "Blokovať"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "Skontrolujte, ktoré webové stránky majú prístup k vašej kamere."
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "Kamera"
+   },
+   "settings_page_website_settings_description": {
+      "message": "Vďaka jednoduchému prístupu k povoleniam webových stránok a ich správe nastavte, ktoré informácie môžu webové stránky používať."
+   },
+   "settings_page_website_settings_header": {
+      "message": "Kontrola nastavení webových stránok"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "Skontrolujte, ktoré webové stránky majú prístup k vašej polohe."
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "Poloha"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "Skontrolujte, ktoré webové stránky majú prístup k vášmu mikrofónu."
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "Mikrofón"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "Skontrolujte, ktoré webové stránky vám môžu odosielať oznámenia."
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "Oznámenia"
+   },
+   "setup_btn": {
+      "message": "NASTAVIŤ"
+   },
+   "summary_metadata_stats_text": {
+      "message": "Odstráňte metadáta so súkromnými informáciami."
+   },
+   "summary_ok_header": {
+      "message": "Vaše prehliadanie je chránené"
+   },
+   "summary_privacy_stats_text": {
+      "message": "Odstráňte údaje prehliadania."
+   },
+   "summary_restart_header": {
+      "message": "Je potrebný reštart prehliadača"
+   },
+   "summary_search_stats_text": {
+      "message": "Skontrolujte bezpečnosť výsledkov vyhľadávania."
+   },
+   "summary_website_setting_header": {
+      "message": "Kontrola nastavení webových stránok"
+   },
+   "summary_website_setting_text": {
+      "message": "Spravujte povolenia webových stránok."
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "Odstráňte údaje prehliadania alebo nastavte pravidelné čistenie."
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "Získajte ľahký prístup k rozšíreniu kliknutím na ikonu rozšírenia vyššie a jeho pripnutím do prehliadača."
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "Získajte ľahký prístup k rozšíreniu kliknutím na ikonu rozšírenia vyššie a jeho pridaním do panela s nástrojmi v prehliadači."
+   },
+   "welcome_page_header_text": {
+      "message": "Ďakujeme, že ste v svojom prehliadači povolili rozšírenie \u003Cspan>ESET Ochrana súkromia v prehliadači\u003C/span>"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "Čistenie metadát*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "Pri zdieľaní súborov na internete z nich odstráňte súkromné informácie."
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "Ikona špendlíka"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "Ikona pluginu"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "Ikona šípky doprava"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "Pred otvorením výsledkov vyhľadávania skontrolujte ich bezpečnosť."
+   },
+   "welcome_page_subheader": {
+      "message": "Ak chcete prehliadať internet bezpečnejšie, kliknite na ikonu rozšírení vedľa riadka s adresou. Táto ikona môže byť niekedy skrytá v ponuke prehliadača."
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*Dostupné v rámci úrovne ESET HOME Security Ultimate"
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "Kontrola nastavení webových stránok*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "Spravujte povolenia webových stránok, ktoré vám môžu odosielať oznámenia či pristupovať k vašej polohe, kamere a mikrofónu."
+   }
+}

@@ -1,0 +1,374 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "Išplėstinis nustatymas"
+   },
+   "alert_icon_alt": {
+      "message": "Įspėjimo piktograma"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "Bandyti dar kartą"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "Ryšys prarastas"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "Prarastas ryšys tarp \u003Cspan class=\"product-info\">{„%productname%“}\u003C/span> ir naršyklės plėtinio. Patikrinkite interneto ryšį ir bandykite dar kartą. Atminkite, kad plėtinys neveiks neįdiegus \u003Cspan class=\"product-info\">{„%productname%“}\u003C/span>."
+   },
+   "alert_page_expired_license_btn": {
+      "message": "Atverti \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "Nebegaliojanti prenumerata"
+   },
+   "alert_page_expired_license_text": {
+      "message": "Jūsų prenumeratos galiojimas baigėsi ir nebegalite pasiekti ESET naršyklės privatumo ir saugos plėtinio. Norėdami išspręsti šią problemą, atidarykite \u003Cspan class=\"product-info\">{„%productname%“}\u003C/span> ir vykdykite pateiktus nurodymus."
+   },
+   "alert_page_missing_product_header": {
+      "message": "Trūksta produkto"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "Šiuo metu jūsų kompiuteryje neįdiegtas ESET produktas, kuris palaikytų ESET naršyklės privatumo ir saugos plėtinį."
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "Norėdami sužinoti daugiau apie plėtinį, palaikomus ESET produktus, palaikomas naršykles ir diegimą, apsilankykite mūsų \u003Cspan class=\"online-help-link\">žinyne internete.\u003C/span>"
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "Nepalaikoma naršyklė"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "Atrodo, kad naudojate naršyklę, kurios dar nepalaikome. Norėdami naudoti ESET naršyklės privatumo ir saugos plėtinį, įdiekite palaikomą naršyklę."
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">Žr. palaikomų naršyklių sąrašą\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "Būsenos „Gerai“ pranešimų juostos piktograma"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "Būsenos „Paleisti iš naujo“ pranešimų juostos piktograma"
+   },
+   "browser_restart_needed_p": {
+      "message": "Kad įsigaliotų šis pakeitimas, reikia iš naujo paleisti naršyklę."
+   },
+   "browsing_cleanup_all_data_btn": {
+      "message": "Visi"
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "Pasirinktinis"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "Naršymo istorija"
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "Atsisiuntimų istorija"
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "Slapukai ir svetainių duomenys"
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "Talpykloje laikomi vaizdai ir failai"
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "Slaptažodžiai ir prisijungimo duomenys"
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "Formų automatinio pildymo duomenys"
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "Duomenų tipas"
+   },
+   "browsing_cleanup_header": {
+      "message": "Naršyklės valymas"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "Pašalinkite naršymo duomenis arba nustatykite reguliarius valymus. Likite prisijungę prie pasirinktų svetainių, \u003Cspan>įtraukdami jas į sąrašą.\u003C/span>"
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "Asmeninis"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "Privačių duomenų tipas apima jūsų naršymo istoriją, atsisiuntimų istoriją, slapukus ir svetainių duomenis, formų automatinio pildymo duomenis."
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "Visą laiką"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "Šis naršymo seansas"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "Paskutinė valanda"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "Pastarosios 24 valandos"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "Paskutinė savaitė"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "Paskutinis mėnuo"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "Pasirinkite laiko intervalą"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "Šalinti duomenis"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "Panaikinta"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "Naikinimas"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "Laiko intervalas"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "Vienkartinis valymas"
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "Reguliarus valymas"
+   },
+   "browsing_regular_cleanup_save_btn": {
+      "message": "Įrašyti nustatymus"
+   },
+   "browsing_regular_cleanup_save_btn_saved_text": {
+      "message": "Įrašyta"
+   },
+   "browsing_regular_cleanup_save_btn_saving_text": {
+      "message": "Įrašoma"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "Senesni nei"
+   },
+   "close_icon_alt": {
+      "message": "Uždarymo piktograma"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "eset_logo_alt": {
+      "message": "ESET logotipas"
+   },
+   "eula_link": {
+      "message": "Galutinio naudotojo licencijos sutartis"
+   },
+   "extension_description": {
+      "message": "Mėgaukitės išplėstine naršyklės apsauga naudodami ESET naršyklės privatumą ir saugą."
+   },
+   "help_support_menu_item": {
+      "message": "Žinynas ir palaikymas"
+   },
+   "info_icon_alt": {
+      "message": "Informacijos piktograma"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "Išvalykite metaduomenis kaskart, kai įkeliate vaizdą."
+   },
+   "metadata_cleaner_func_header": {
+      "message": "Išvalyti duomenis iš failų"
+   },
+   "metadata_cleaner_header": {
+      "message": "Metaduomenų valymas"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "Pašalinkite metaduomenis su privačia informacija, kai bendrinate failus internete."
+   },
+   "metadata_notifications_func_header": {
+      "message": "Rodyti pranešimus po valymo"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "Gaukite pranešimus naršyklėje."
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "Metaduomenų būsenos įspėjimo piktograma"
+   },
+   "notification_message_text": {
+      "message": "Išvalyti įkelto failo metaduomenys:"
+   },
+   "overview_menu_item": {
+      "message": "Apžvalga"
+   },
+   "privacy_policy_link": {
+      "message": "Privatumo politika"
+   },
+   "product_name": {
+      "message": "NARŠYKLĖS PRIVATUMAS IR SAUGA"
+   },
+   "product_title": {
+      "message": "ESET naršyklės privatumas ir sauga"
+   },
+   "product_version": {
+      "message": "Versija:"
+   },
+   "progress_logo_alt": {
+      "message": "Logotipas „Progress. Protected.“"
+   },
+   "scan_search_result_func_description": {
+      "message": "Nuskaitykite paieškos rezultatus, kad pamatytumėte, kuriuos iš jų saugu spustelėti."
+   },
+   "scan_search_result_func_header": {
+      "message": "Nuskaityti paieškos rezultatus"
+   },
+   "secure_search_green_popup_text": {
+      "message": "Ši svetainė yra saugi"
+   },
+   "secure_search_header": {
+      "message": "Saugi paieška"
+   },
+   "secure_search_red_popup_text": {
+      "message": "Ši svetainė nėra saugi"
+   },
+   "secure_search_subheader": {
+      "message": "Sužinokite, kuriuos paieškos rezultatus saugu atidaryti."
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "Rastas galimai nepageidaujamas turinys"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "Tamsus"
+   },
+   "settings_page_appearance_description": {
+      "message": "Tinkinkite sąsajos spalvą, kad ji atitiktų jūsų pageidavimus. Galite pasirinkti šviesią arba tamsią spalvą."
+   },
+   "settings_page_appearance_header": {
+      "message": "Išvaizda"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "Šviesus"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "Spalvų režimas"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "Siūlomi domenai pagal skirtukus, kuriuos šiuo metu esate atidarę naršyklėje. Jei toliau pateiktame sąraše nematote visų šiuo metu atidarytų skirtukų, \u003Cspan class=\"refresh-list\">atnaujinkite sąrašą.\u003C/span>"
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "Pridėti"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "Po valymo palikti dabartinį atidarytų skirtukų naršymo seansą"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "Pridėkite svetaines, kuriose norite priimti slapukus ir likti prisijungę net ir atlikę naršyklės valymą."
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "Įveskite URL, kurį norite pridėti"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "Mažiau"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "Daugiau"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "Išplėstiniai slapukų nustatymai"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "*Tai neatrodo kaip galiojantis URL."
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "Leisti"
+   },
+   "settings_page_website_settings_ask_text": {
+      "message": "Klausti (numatytasis)"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "Blokuoti"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "Peržiūrėkite, kurios svetainės gali paprašyti naudoti fotoaparatą."
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "Kamera"
+   },
+   "settings_page_website_settings_description": {
+      "message": "Lengvai pasiekite ir tvarkykite svetainės leidimus, kad galėtumėte valdyti, kokią informaciją gali naudoti svetainės."
+   },
+   "settings_page_website_settings_header": {
+      "message": "Svetainės nustatymų peržiūra"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "Peržiūrėkite, kurios svetainės gali paprašyti nurodyti vietovę."
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "Vieta"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "Peržiūrėkite, kurios svetainės gali paprašyti naudoti mikrofoną."
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "Mikrofonas"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "Peržiūrėkite, kurios svetainės gali prašyti siųsti pranešimus."
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "Pranešimai"
+   },
+   "setup_btn": {
+      "message": "NUSTATYTI"
+   },
+   "summary_metadata_stats_text": {
+      "message": "Pašalinkite metaduomenis su privačia informacija."
+   },
+   "summary_ok_header": {
+      "message": "Jūsų naršymas apsaugotas"
+   },
+   "summary_privacy_stats_text": {
+      "message": "Pašalinkite naršymo duomenis."
+   },
+   "summary_restart_header": {
+      "message": "Reikia iš naujo paleisti naršyklę"
+   },
+   "summary_search_stats_text": {
+      "message": "Patikrinkite paieškos rezultatų saugumą."
+   },
+   "summary_website_setting_header": {
+      "message": "Svetainės nustatymų peržiūra"
+   },
+   "summary_website_setting_text": {
+      "message": "Tvarkykite svetainės teises."
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "Pašalinkite naršymo duomenis arba nustatykite reguliarų valymą."
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "Laikykite plėtinį matomą spustelėdami aukščiau esančią plėtinio piktogramą ir prisegdami ją naršyklėje, kad galėtumėte lengvai pasiekti."
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "Laikykite plėtinį matomą spustelėdami aukščiau esančią plėtinio piktogramą ir pridėdami ją prie naršyklės įrankių juostos, kad galėtumėte lengvai pasiekti."
+   },
+   "welcome_page_header_text": {
+      "message": "Dėkojame, kad naršyklėje įgalinote \u003Cspan>ESET naršyklės privatumo ir saugos\u003C/span> plėtinį"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "Metaduomenų valymas*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "Bendrindami failus internete pašalinkite iš jų privačią informaciją."
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "Prisegimo piktograma"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "Papildinio piktograma"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "Rodyklės dešinėn piktograma"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "Prieš atidarydami paieškos rezultatus, patikrinkite jų saugumą."
+   },
+   "welcome_page_subheader": {
+      "message": "Norėdami pradėti saugiau naršyti, spustelėkite plėtinio piktogramą šalia adreso juostos. Kai kuriose naršyklėse ji gali būti paslėpta naršyklės meniu."
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*Pasiekiama naudojant „ESET HOME Security Ultimate“"
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "Svetainės nustatymų peržiūra*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "Valdykite svetainės leidimus pranešimams, vietai, kamerai ir mikrofonui."
+   }
+}

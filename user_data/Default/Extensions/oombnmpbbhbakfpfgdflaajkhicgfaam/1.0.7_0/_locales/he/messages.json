@@ -1,0 +1,374 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "הגדרות מתקדמות"
+   },
+   "alert_icon_alt": {
+      "message": "סמל התראה"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "נסה שוב"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "החיבור אבד"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "החיבור בין \u003Cspan class=\"product-info\">{%productname%}\u003C/span> לתוסף הדפדפן אבד. בדוק את חיבור האינטרנט שלך ונסה שוב. שים לב שהתוסף לא יעבוד אם \u003Cspan class=\"product-info\">{%productname%}\u003C/span> לא מותקן."
+   },
+   "alert_page_expired_license_btn": {
+      "message": "פתח \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "מינוי שפג תוקפו"
+   },
+   "alert_page_expired_license_text": {
+      "message": "תוקף המינוי שלך פג ואינך יכול עוד לגשת לתוסף 'פרטיות ואבטחה בדפדפן של ESET'. כדי לפתור את הבעיה, פתח את \u003Cspan class=\"product-info\">{%productname%}\u003C/span> ופעל לפי ההוראות."
+   },
+   "alert_page_missing_product_header": {
+      "message": "מוצר חסר"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "לא מותקן כרגע במחשב שלך מוצר ESET שתומך בתוסף 'פרטיות ואבטחה בדפדפן של ESET'."
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "למידע נוסף על התוסף ובנושא מוצרי ESET נתמכים, דפדפנים נתמכים והתקנה, עיין \u003Cspan class=\"online-help-link\">בעזרה המקוונת\u003C/span> שלנו."
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "דפדפן לא נתמך"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "נראה שאתה משתמש בדפדפן שאיננו תומכים בו עדיין. כדי להשתמש בתוסף 'פרטיות ואבטחה בדפדפן של ESET', יש להתקין דפדפן נתמך."
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">ראה דפדפנים נתמכים\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "סמל באנר של סטטוס אישור"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "הפעל מחדש את הסמל של באנר הסטטוס"
+   },
+   "browser_restart_needed_p": {
+      "message": "נדרשת הפעלה מחדש של הדפדפן כדי ששינוי זה ייכנס לתוקף."
+   },
+   "browsing_cleanup_all_data_btn": {
+      "message": "הכל"
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "מותאם אישית"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "היסטוריית גלישה"
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "היסטוריית הורדות"
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "קובצי Cookie ונתוני אתר"
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "תמונות וקבצים במטמון"
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "סיסמאות ונתוני כניסה"
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "נתוני מילוי אוטומטי של טפסים"
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "סוג הנתונים"
+   },
+   "browsing_cleanup_header": {
+      "message": "ניקוי דפדפן"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "מחק נתוני גלישה או הגדר ניקוי רגיל. הישאר מחובר באתרים נבחרים על ידי \u003Cspan>הוספתם לרשימה.\u003C/span>"
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "פרטי"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "סוג הנתונים 'פרטי' כולל את היסטוריית הגלישה שלך, היסטוריית ההורדות, קובצי Cookie ונתוני אתרים, ונתונים למילוי אוטומטי של טפסים."
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "כל הזמן"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "הפעלת גלישה זו"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "השעה האחרונה"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "24 השעות האחרונות"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "בשבוע שעבר"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "בחודש שעבר"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "בחר טווח זמן"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "מחק נתונים"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "נמחק"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "מחיקה"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "אזור זמן"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "ניקוי חד פעמי"
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "ניקוי קבוע"
+   },
+   "browsing_regular_cleanup_save_btn": {
+      "message": "שמור הגדרות"
+   },
+   "browsing_regular_cleanup_save_btn_saved_text": {
+      "message": "נשמר"
+   },
+   "browsing_regular_cleanup_save_btn_saving_text": {
+      "message": "מבוצעת שמירה"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "נתונים ישנים מ-"
+   },
+   "close_icon_alt": {
+      "message": "סמל 'סגור'"
+   },
+   "direction": {
+      "message": "rtl"
+   },
+   "eset_logo_alt": {
+      "message": "לוגו של ESET"
+   },
+   "eula_link": {
+      "message": "הסכם רישיון למשתמש קצה"
+   },
+   "extension_description": {
+      "message": "תוכל ליהנות מהגנת דפדפן מורחבת באמצעות התכונה 'פרטיות ואבטחה בדפדפן של ESET'."
+   },
+   "help_support_menu_item": {
+      "message": "עזרה ותמיכה"
+   },
+   "info_icon_alt": {
+      "message": "סמל מידע"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "נקה מטה-נתונים בכל פעם שאתה מעלה תמונה."
+   },
+   "metadata_cleaner_func_header": {
+      "message": "נקה נתונים מהקבצים שלך"
+   },
+   "metadata_cleaner_header": {
+      "message": "ניקוי מטה-נתונים"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "הסר מטה-נתונים עם מידע פרטי בעת שיתוף קבצים באופן מקוון."
+   },
+   "metadata_notifications_func_header": {
+      "message": "הצג התראות לאחר הניקוי"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "קבל התראות בדפדפן."
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "סמל אזהרה לסטטוס מטה-נתונים"
+   },
+   "notification_message_text": {
+      "message": "בוצע ניקיון של מטה-נתונים של קבצים שהועלו:"
+   },
+   "overview_menu_item": {
+      "message": "מבט כולל"
+   },
+   "privacy_policy_link": {
+      "message": "מדיניות פרטיות"
+   },
+   "product_name": {
+      "message": "פרטיות ואבטחה בדפדפן"
+   },
+   "product_title": {
+      "message": "פרטיות ואבטחה בדפדפן של ESET"
+   },
+   "product_version": {
+      "message": "גרסה:"
+   },
+   "progress_logo_alt": {
+      "message": "לוגו של Progress. Protected.‎"
+   },
+   "scan_search_result_func_description": {
+      "message": "סרוק תוצאות חיפוש כדי לראות על אילו מהן אפשר ללחוץ בצורה בטוחה."
+   },
+   "scan_search_result_func_header": {
+      "message": "סרוק תוצאות חיפוש"
+   },
+   "secure_search_green_popup_text": {
+      "message": "אתר זה בטוח"
+   },
+   "secure_search_header": {
+      "message": "חיפוש בטוח"
+   },
+   "secure_search_red_popup_text": {
+      "message": "אתר זה אינו בטוח"
+   },
+   "secure_search_subheader": {
+      "message": "ראה אילו תוצאות חיפוש בטוחות לפתיחה."
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "נמצא תוכן העלול להיות בלתי רצוי"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "כהה"
+   },
+   "settings_page_appearance_description": {
+      "message": "התאם אישית את צבע הממשק כך שיתאים להעדפות שלך. אפשר לבחור בין צבע בהיר או כהה."
+   },
+   "settings_page_appearance_header": {
+      "message": "מראה"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "בהיר"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "מצב צבע"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "תחומים מוצעים בהתבסס על הכרטיסיות הפתוחות כעת בדפדפן שלך. אם אינך רואה את כל הכרטיסיות הפתוחות כעת ברשימה למטה, \u003Cspan class=\"refresh-list\">רענן את הרשימה.\u003C/span>"
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "הוסף"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "שמור על הפעלת הגלישה הנוכחית עבור כרטיסיות פתוחות לאחר הניקוי"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "הוסף אתרים שבהם ברצונך לקבל קובצי Cookie ולהישאר מחובר גם לאחר ניקוי הדפדפן."
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "הזן כתובת אתר שתרצה להוסיף"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "מינוס"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "פלוס"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "הגדרות מתקדמות של קובצי Cookie"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "*זה לא נראה כמו כתובת אתר חוקית."
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "אפשר"
+   },
+   "settings_page_website_settings_ask_text": {
+      "message": "שאל (ברירת מחדל)"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "חסום"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "בדוק אילו אתרים יכולים לבקש להשתמש במצלמה שלך."
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "מצלמה"
+   },
+   "settings_page_website_settings_description": {
+      "message": "גש ונהל הרשאות אתר בקלות כדי לקבוע באיזה מידע אתרי אינטרנט יכולים להשתמש."
+   },
+   "settings_page_website_settings_header": {
+      "message": "בדיקת הגדרות של אתר אינטרנט"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "בדוק אילו אתרים יכולים לשאול מהו מיקומך."
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "מיקום"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "בדוק אילו אתרים יכולים לבקש להשתמש במיקרופון שלך."
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "מיקרופון"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "בדוק אילו אתרים יכולים לבקש לשלוח התראות."
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "התראות"
+   },
+   "setup_btn": {
+      "message": "הגדר"
+   },
+   "summary_metadata_stats_text": {
+      "message": "הסר מטה-נתונים עם מידע פרטי."
+   },
+   "summary_ok_header": {
+      "message": "הגלישה שלך מוגנת"
+   },
+   "summary_privacy_stats_text": {
+      "message": "מחק את נתוני הגלישה שלך."
+   },
+   "summary_restart_header": {
+      "message": "נדרשת הפעלה מחדש של הדפדפן"
+   },
+   "summary_search_stats_text": {
+      "message": "בדוק את מידת הבטיחות של תוצאות החיפוש."
+   },
+   "summary_website_setting_header": {
+      "message": "בדיקת הגדרות של אתר אינטרנט"
+   },
+   "summary_website_setting_text": {
+      "message": "נהל הרשאות אתר."
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "מחק נתוני גלישה או הגדר ניקוי רגיל."
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "שמור את התוסף גלוי על ידי לחיצה על סמל התוסף למעלה והצמדתו בדפדפן לגישה נוחה."
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "שמור את התוסף גלוי על ידי לחיצה על סמל התוסף למעלה והוספתו לסרגל הכלים של הדפדפן לגישה נוחה."
+   },
+   "welcome_page_header_text": {
+      "message": "תודה שהפעלת את ההרחבה \u003Cspan>פרטיות ואבטחה בדפדפן של ESET\u003C/span> בדפדפן שלך"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "ניקוי מטה-נתונים*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "הסר קבצים של מידע פרטי בעת שיתוף שלהם באופן מקוון."
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "סמל סיכה"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "סמל תוסף"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "סמל חץ ימינה"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "בדוק את מידת הבטיחות של תוצאות החיפוש לפני פתיחתן."
+   },
+   "welcome_page_subheader": {
+      "message": "כדי להתחיל ליהנות מחווית גלישה בטוחה יותר, לחץ על סמל ההרחבה שליד שורת הכתובת. בדפדפנים מסוימים, ייתכן שהוא מוסתר בתפריט הדפדפן."
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*זמין ב-ESET HOME Security Ultimate"
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "בדיקת הגדרות של אתר אינטרנט*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "שלוט בהרשאות אתרים עבור התראות, מיקום, מצלמה ומיקרופון."
+   }
+}

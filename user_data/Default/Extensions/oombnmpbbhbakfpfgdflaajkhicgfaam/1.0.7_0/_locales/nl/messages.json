@@ -1,0 +1,374 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "Geavanceerde instellingen"
+   },
+   "alert_icon_alt": {
+      "message": "Pictogram Waarschuwing"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "Opnieuw"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "Verbinding verbroken"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "De verbinding tussen \u003Cspan class=\"product-info\">{%productname%}\u003C/span> en de browserextensie is verbroken. Controleer uw internetverbinding en probeer het opnieuw. Let op: de extensie werkt alleen als \u003Cspan class=\"product-info\">{%productname%}\u003C/span> is geïnstalleerd."
+   },
+   "alert_page_expired_license_btn": {
+      "message": "Openen \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "Verlopen abonnement"
+   },
+   "alert_page_expired_license_text": {
+      "message": "Uw abonnement is verlopen en u hebt geen toegang meer tot de extensie ESET Browserprivacy en -beveiliging. U kunt dit probleem oplossen door \u003Cspan class=\"product-info\">{%productname%}\u003C/span> te openen en de instructies te volgen."
+   },
+   "alert_page_missing_product_header": {
+      "message": "Ontbrekend product"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "Er is momenteel geen ESET-product op uw computer geïnstalleerd dat de extensie ESET Browserprivacy en -beveiliging ondersteunt."
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "Bekijk onze \u003Cspan class=\"online-help-link\">Online Help\u003C/span> voor meer informatie over de extensie, ondersteunde ESET-producten, ondersteunde browsers en installatie."
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "Niet-ondersteunde browser"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "Waarschijnlijk gebruikt u een browser die we nog niet ondersteunen. Als u de extensie ESET Browserprivacy en -beveiliging wilt gebruiken, moet u een ondersteunde browser installeren."
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">Bekijk de ondersteunde browsers\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "Pictogram van banner voor Status OK"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "Pictogram van banner voor Status Opnieuw opstarten"
+   },
+   "browser_restart_needed_p": {
+      "message": "De browser moet opnieuw worden opgestart om deze wijziging door te voeren."
+   },
+   "browsing_cleanup_all_data_btn": {
+      "message": "Alles"
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "Aangepast"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "Surfgeschiedenis"
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "Downloadgeschiedenis"
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "Cookies en websitegegevens"
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "Afbeeldingen en bestanden in de cache"
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "Wachtwoorden en aanmeldingsgegevens"
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "Gegevens voor automatisch invullen van formulieren"
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "Type gegevens"
+   },
+   "browsing_cleanup_header": {
+      "message": "Browseropschoning"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "Verwijder browsegegevens of stel regelmatige intervallen voor opschonen in. Selecteer op welke websites u ingelogd wilt blijven en \u003Cspan>voeg ze toe aan een lijst.\u003C/span>"
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "Privé"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "Het type privégegevens omvat uw browsegeschiedenis, downloadgeschiedenis, cookies en websitegegevens, gegevens voor automatisch invullen van formulieren."
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "Alle"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "Deze browsersessie"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "Laatste uur"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "Afgelopen 24 uur"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "Afgelopen week"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "Afgelopen maand"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "Selecteer tijdsbereik"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "Gegevens verwijderen"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "Verwijderd"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "Verwijderen"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "Tijdbereiken"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "Eenmalige opschoning"
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "Regelmatig opschonen"
+   },
+   "browsing_regular_cleanup_save_btn": {
+      "message": "Instellingen opslaan"
+   },
+   "browsing_regular_cleanup_save_btn_saved_text": {
+      "message": "Opgeslagen"
+   },
+   "browsing_regular_cleanup_save_btn_saving_text": {
+      "message": "Opslaan"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "Gegevens ouder dan"
+   },
+   "close_icon_alt": {
+      "message": "Pictogram Sluiten"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "eset_logo_alt": {
+      "message": "ESET-logo"
+   },
+   "eula_link": {
+      "message": "Licentieovereenkomst voor eindgebruikers"
+   },
+   "extension_description": {
+      "message": "Profiteer van uitgebreide browserbeveiliging met ESET Browserprivacy en -beveiliging."
+   },
+   "help_support_menu_item": {
+      "message": "Help en ondersteuning"
+   },
+   "info_icon_alt": {
+      "message": "Pictogram Informatie"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "Schoon metadata op telkens wanneer u een afbeelding uploadt."
+   },
+   "metadata_cleaner_func_header": {
+      "message": "Gegevens uit uw bestanden opschonen"
+   },
+   "metadata_cleaner_header": {
+      "message": "Metadataopschoning"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "Verwijder metadata met privégegevens wanneer u bestanden online deelt."
+   },
+   "metadata_notifications_func_header": {
+      "message": "Meldingen weergeven na opschonen"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "Ontvang meldingen in de browser."
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "Pictogram van Waarschuwing status metadata"
+   },
+   "notification_message_text": {
+      "message": "Metadata van geüploade bestanden opgeschoond:"
+   },
+   "overview_menu_item": {
+      "message": "Overzicht"
+   },
+   "privacy_policy_link": {
+      "message": "Privacybeleid"
+   },
+   "product_name": {
+      "message": "Browserprivacy en -beveiliging"
+   },
+   "product_title": {
+      "message": "ESET Browserprivacy en -beveiliging"
+   },
+   "product_version": {
+      "message": "Versie:"
+   },
+   "progress_logo_alt": {
+      "message": "Logo Progress. Protected."
+   },
+   "scan_search_result_func_description": {
+      "message": "Scan zoekresultaten om te zien op welke u veilig kunt klikken."
+   },
+   "scan_search_result_func_header": {
+      "message": "Zoekresultaten scannen"
+   },
+   "secure_search_green_popup_text": {
+      "message": "Deze website is veilig"
+   },
+   "secure_search_header": {
+      "message": "Veilig zoeken"
+   },
+   "secure_search_red_popup_text": {
+      "message": "Deze website is niet veilig"
+   },
+   "secure_search_subheader": {
+      "message": "Bekijk welke zoekresultaten veilig kunnen worden geopend."
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "Potentieel ongewenste inhoud gevonden"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "Donker"
+   },
+   "settings_page_appearance_description": {
+      "message": "Pas de kleur van de interface aan. U kunt kiezen tussen een lichte of donkere kleur."
+   },
+   "settings_page_appearance_header": {
+      "message": "Uiterlijk"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "Licht"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "Kleurmodus"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "Voorgestelde domeinen op basis van de tabbladen die u momenteel in uw browser hebt geopend. Als u niet alle momenteel geopende tabbladen in de onderstaande lijst ziet, moet \u003Cspan class=\"refresh-list\">u de lijst vernieuwen\u003C/span>."
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "Toevoegen"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "Behoud de geopende tabbladen van de huidige browsersessie na het opschonen"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "Voeg websites toe waarop u cookies wilt accepteren en ingelogd wilt blijven, zelfs na het opschonen van de browser."
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "Voer een URL in die u wilt toevoegen"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "Minus"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "Plus"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "Geavanceerde cookie-instellingen"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "*Dat ziet er niet uit als een geldige URL."
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "Toestaan"
+   },
+   "settings_page_website_settings_ask_text": {
+      "message": "Vragen (standaard)"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "Blokkeren"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "Bekijk welke websites kunnen vragen om uw camera te gebruiken."
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "Camera"
+   },
+   "settings_page_website_settings_description": {
+      "message": "Open en beheer eenvoudig uw websitemachtigingen om te bepalen welke informatie kan worden gebruikt door websites."
+   },
+   "settings_page_website_settings_header": {
+      "message": "Website-instellingenbeheer"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "Bekijk welke websites kunnen vragen naar uw locatie."
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "Locatie"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "Bekijk welke websites kunnen vragen om uw microfoon te gebruiken."
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "Microfoon"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "Bekijk welke websites kunnen vragen om meldingen te verzenden."
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "Meldingen"
+   },
+   "setup_btn": {
+      "message": "INSTELLEN"
+   },
+   "summary_metadata_stats_text": {
+      "message": "Verwijder metadata met privégegevens."
+   },
+   "summary_ok_header": {
+      "message": "Uw browseactiviteiten zijn beveiligd"
+   },
+   "summary_privacy_stats_text": {
+      "message": "Verwijder uw browsegegevens."
+   },
+   "summary_restart_header": {
+      "message": "Browser moet opnieuw worden opgestart"
+   },
+   "summary_search_stats_text": {
+      "message": "Controleer of de zoekresultaten veilig zijn."
+   },
+   "summary_website_setting_header": {
+      "message": "Website-instellingenbeheer"
+   },
+   "summary_website_setting_text": {
+      "message": "Beheer websitemachtigingen."
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "Verwijder browsegegevens of stel een regelmatig interval voor opschonen in."
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "Houd de extensie zichtbaar voor eenvoudige toegang: klik hierboven op het pictogram van de extensie en maak het vast in de browser."
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "Houd de extensie zichtbaar voor eenvoudige toegang: klik hierboven op het pictogram van de extensie en voeg het toe aan de werkbalk van de browser."
+   },
+   "welcome_page_header_text": {
+      "message": "Bedankt dat u de extensie \u003Cspan>ESET Browserprivacy en -beveiliging\u003C/span> hebt ingeschakeld in uw browser"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "Metadataopschoning*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "Verwijder uw privégegevens uit bestanden wanneer u deze online deelt."
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "Pictogram Vastmaken"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "Pictogram Plug-in"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "Pictogram Pijl-rechts"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "Controleer of zoekresultaten veilig zijn voordat u ze opent."
+   },
+   "welcome_page_subheader": {
+      "message": "Als u veiliger wilt browsen, klikt u op het pictogram van de extensie naast de adresbalk. Het pictogram is in sommige browsers mogelijk verborgen in het browsermenu."
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*Beschikbaar in ESET HOME Security Ultimate"
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "Website-instellingenbeheer*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "Beheer websitemachtigingen voor meldingen, locatie, camera en microfoon."
+   }
+}

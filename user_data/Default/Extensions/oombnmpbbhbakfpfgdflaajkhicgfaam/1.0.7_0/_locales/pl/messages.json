@@ -1,0 +1,374 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "Ustawienia zaawansowane"
+   },
+   "alert_icon_alt": {
+      "message": "Ikona alertu"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "Spróbuj ponownie"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "Utrata połączenia"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "Połączenie między \u003Cspan class=\"product-info\">{%productname%}\u003C/span> a rozszerzeniem przeglądarki zostało utracone. Sprawdź połączenie internetowe i spróbuj ponownie. Pamiętaj, że rozszerzenie nie będzie działać bez zainstalowanego \u003Cspan class=\"product-info\">{%productname%}\u003C/span>."
+   },
+   "alert_page_expired_license_btn": {
+      "message": "Otwórz \u003Cspan class=\"product-info\">{%productname%}\u003C/span>. "
+   },
+   "alert_page_expired_license_header": {
+      "message": "Wygasła subskrypcja"
+   },
+   "alert_page_expired_license_text": {
+      "message": "Subskrypcja wygasła i nie można już uzyskać dostępu do rozszerzenia ESET Prywatność i zabezpieczenia przeglądarki. Aby rozwiązać ten problem, otwórz \u003Cspan class=\"product-info\">{%productname%}\u003C/span> i postępuj zgodnie z podanymi instrukcjami."
+   },
+   "alert_page_missing_product_header": {
+      "message": "Brakujący produkt"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "Obecnie na komputerze nie jest zainstalowany żaden produkt firmy ESET, który obsługuje rozszerzenie Prywatność i zabezpieczenia przeglądarki ESET."
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "Aby dowiedzieć się więcej o tym rozszerzeniu, obsługiwanych produktach ESET, obsługiwanych przeglądarkach i instalacji, odwiedź naszą \u003Cspan class=\"online-help-link\">pomoc online.\u003C/span>"
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "Nieobsługiwana przeglądarka"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "Wygląda na to, że używasz przeglądarki, której jeszcze nie obsługujemy. Aby korzystać z rozszerzenia Prywatność i zabezpieczenia przeglądarki ESET, zainstaluj obsługiwaną przeglądarkę."
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">Zapoznaj się z obsługiwanymi przeglądarkami\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "Ikona banera stanu OK"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "Ikona banera stanu ponownego uruchomienia"
+   },
+   "browser_restart_needed_p": {
+      "message": "Aby zmiany mogły zostać wprowadzone, wymagane jest ponowne uruchomienie przeglądarki."
+   },
+   "browsing_cleanup_all_data_btn": {
+      "message": "Wszystkie"
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "Niestandardowy"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "Historia przeglądania"
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "Historia pobierania"
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "Pliki cookie i dane stron internetowych"
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "Obrazy i pliki zapisane w pamięci podręcznej"
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "Hasła i dane logowania"
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "Autouzupełnianie danych formularzy"
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "Typ danych"
+   },
+   "browsing_cleanup_header": {
+      "message": "Czyszczenie przeglądarki"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "Usuń dane przeglądania lub skonfiguruj regularne czyszczenie. Pozostań zalogowany na wybranych stronach internetowych, \u003Cspan>dodając je do listy.\u003C/span>"
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "Prywatny"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "Typ danych prywatnych obejmuje historię przeglądania, historię pobierania, pliki cookie i dane witryn, dane autouzupełniania formularzy."
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "Cały czas"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "Ta sesja przeglądania"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "Ostatnia godzina"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "Ostatnie 24 godziny"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "Ostatni tydzień"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "Ostatni miesiąc"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "Wybierz zakres czasu"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "Usuń dane"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "Usunięte"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "Usuwanie"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "Zakresy czasu"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "Jednorazowe czyszczenie"
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "Regularne czyszczenie"
+   },
+   "browsing_regular_cleanup_save_btn": {
+      "message": "Zapisz ustawienia"
+   },
+   "browsing_regular_cleanup_save_btn_saved_text": {
+      "message": "Zapisano"
+   },
+   "browsing_regular_cleanup_save_btn_saving_text": {
+      "message": "Zapisywanie"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "Dane starsze niż"
+   },
+   "close_icon_alt": {
+      "message": "Ikona Zamknij"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "eset_logo_alt": {
+      "message": "Logo ESET"
+   },
+   "eula_link": {
+      "message": "Umowa Licencyjna Użytkownika Końcowego"
+   },
+   "extension_description": {
+      "message": "Rozszerzona ochrona przeglądarki dzięki rozwiązaniu ESET Prywatność i zabezpieczenia przeglądarki."
+   },
+   "help_support_menu_item": {
+      "message": "Pomoc i obsługa"
+   },
+   "info_icon_alt": {
+      "message": "Ikona informacji"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "Czyść metadane za każdym razem, gdy przesyłasz obraz."
+   },
+   "metadata_cleaner_func_header": {
+      "message": "Wyczyść dane z plików"
+   },
+   "metadata_cleaner_header": {
+      "message": "Czyszczenie metadanych"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "Usuń metadane z prywatnymi informacjami podczas udostępniania plików online."
+   },
+   "metadata_notifications_func_header": {
+      "message": "Wyświetlaj powiadomienia po oczyszczeniu"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "Otrzymuj powiadomienia w przeglądarce."
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "Ikona ostrzeżenia o stanie metadanych"
+   },
+   "notification_message_text": {
+      "message": "Wyczyszczono metadane przesłanego pliku:"
+   },
+   "overview_menu_item": {
+      "message": "Przegląd"
+   },
+   "privacy_policy_link": {
+      "message": "Polityka prywatności"
+   },
+   "product_name": {
+      "message": "PRYWATNOŚĆ I ZABEZPIECZENIA PRZEGLĄDARKI"
+   },
+   "product_title": {
+      "message": "Prywatność i zabezpieczenia przeglądarki ESET"
+   },
+   "product_version": {
+      "message": "Wersja:"
+   },
+   "progress_logo_alt": {
+      "message": "Logo „Progress. Protected.”"
+   },
+   "scan_search_result_func_description": {
+      "message": "Skanuj wyniki wyszukiwania, aby zobaczyć, które z nich można bezpiecznie kliknąć."
+   },
+   "scan_search_result_func_header": {
+      "message": "Skanuj wyniki wyszukiwania"
+   },
+   "secure_search_green_popup_text": {
+      "message": "Ta witryna internetowa jest bezpieczna"
+   },
+   "secure_search_header": {
+      "message": "Bezpieczne wyszukiwanie"
+   },
+   "secure_search_red_popup_text": {
+      "message": "Ta witryna internetowa nie jest bezpieczna"
+   },
+   "secure_search_subheader": {
+      "message": "Zobacz, które wyniki wyszukiwania można bezpiecznie otworzyć."
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "Znaleziono potencjalnie niepożądaną zawartość"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "Ciemny"
+   },
+   "settings_page_appearance_description": {
+      "message": "Dostosuj kolor interfejsu do swoich preferencji. Możesz wybrać jasny lub ciemny motyw."
+   },
+   "settings_page_appearance_header": {
+      "message": "Wygląd"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "Światło"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "Motyw"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "Sugerowane domeny na podstawie kart, które są obecnie otwarte w przeglądarce. Jeśli nie widzisz wszystkich aktualnie otwartych kart na poniższej liście, \u003Cspan class=\"refresh-list\">odśwież listę.\u003C/span>"
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "Dodaj"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "Zachowaj bieżącą sesję przeglądania dla otwartych kart po oczyszczeniu"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "Dodaj strony internetowe, w których chcesz akceptować pliki cookie, i uniknij wylogowania nawet po wyczyszczeniu przeglądarki."
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "Wpisz adres URL, który chcesz dodać"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "Minus"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "Plus"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "Zaawansowane ustawienia plików cookie"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "* To nie wygląda na prawidłowy adres URL."
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "Zezwól"
+   },
+   "settings_page_website_settings_ask_text": {
+      "message": "Zapytaj (domyślnie)"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "Zablokuj"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "Sprawdź, które witryny mogą prosić o skorzystanie z Twojej kamery."
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "Kamera"
+   },
+   "settings_page_website_settings_description": {
+      "message": "Łatwy dostęp do uprawnień witryny sieci Web i zarządzanie nimi w celu kontrolowania informacji, z których mogą korzystać witryny internetowe."
+   },
+   "settings_page_website_settings_header": {
+      "message": "Przegląd ustawień witryny internetowej"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "Sprawdź, które witryny mogą pytać o Twoją lokalizację."
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "Lokalizacja:"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "Sprawdź, które witryny mogą prosić o skorzystanie z Twojego mikrofonu."
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "Mikrofon"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "Sprawdź, które witryny mogą prosić o wysyłanie powiadomień."
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "Powiadomienia"
+   },
+   "setup_btn": {
+      "message": "SKONFIGURUJ"
+   },
+   "summary_metadata_stats_text": {
+      "message": "Usuń metadane z prywatnymi informacjami."
+   },
+   "summary_ok_header": {
+      "message": "Twoje przeglądanie jest chronione"
+   },
+   "summary_privacy_stats_text": {
+      "message": "Usuń dane przeglądania."
+   },
+   "summary_restart_header": {
+      "message": "Wymagane ponowne uruchomienie przeglądarki"
+   },
+   "summary_search_stats_text": {
+      "message": "Sprawdź bezpieczeństwo wyników wyszukiwania."
+   },
+   "summary_website_setting_header": {
+      "message": "Przegląd ustawień witryny internetowej"
+   },
+   "summary_website_setting_text": {
+      "message": "Zarządzaj uprawnieniami witryny."
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "Usuń dane przeglądania lub skonfiguruj regularne czyszczenie."
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "Zachowaj widoczność rozszerzenia, klikając ikonę rozszerzenia powyżej i przypinając je w przeglądarce, aby mieć do niego łatwy dostęp."
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "Zachowaj widoczność rozszerzenia, klikając ikonę rozszerzenia powyżej i dodając je do paska narzędzi przeglądarki, aby mieć do niego łatwy dostęp."
+   },
+   "welcome_page_header_text": {
+      "message": "Dziękujemy za włączenie rozszerzenia \u003Cspan>ESET Prywatność i zabezpieczenia przeglądarki\u003C/span> w swojej przeglądarce"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "Czyszczenie metadanych*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "Usuwaj prywatne informacje z plików podczas udostępniania ich online."
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "Ikona przypięcia"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "Ikona wtyczki"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "Ikona strzałki w prawo"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "Sprawdź bezpieczeństwo wyników wyszukiwania przed ich otwarciem."
+   },
+   "welcome_page_subheader": {
+      "message": "Aby zacząć korzystać z bezpieczniejszego przeglądania, kliknij ikonę rozszerzenia obok paska adresu. W niektórych przeglądarkach może być ona ukryta w menu przeglądarki."
+   },
+   "welcome_page_ultime_feature": {
+      "message": "* Dostępne w programie ESET HOME Security Ultimate"
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "Przegląd ustawień witryny internetowej*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "Kontroluj uprawnienia witryny do powiadomień, lokalizacji, kamery i mikrofonu."
+   }
+}

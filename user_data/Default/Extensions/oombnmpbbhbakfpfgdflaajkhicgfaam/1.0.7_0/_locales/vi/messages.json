@@ -1,0 +1,374 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "Thiết lập nâng cao"
+   },
+   "alert_icon_alt": {
+      "message": "Biểu tượng cảnh báo"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "Thử lại"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "Đã mất kết nối"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "Kết nối giữa \u003Cspan class=\"product-info\">{%productname%}\u003C/span> và tiện ích mở rộng trình duyệt đã mất. Vui lòng kiểm tra kết nối internet của bạn và thử lại. Lưu ý rằng tiện ích mở rộng sẽ không hoạt động nếu không cài đặt \u003Cspan class=\"product-info\">{%productname%}\u003C/span>."
+   },
+   "alert_page_expired_license_btn": {
+      "message": "Mở \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "Đăng ký đã hết hạn"
+   },
+   "alert_page_expired_license_text": {
+      "message": "Đăng ký của bạn đã hết hạn và bạn không còn truy cập được tiện ích mở rộng Quyền riêng tư & bảo mật trình duyệt ESET nữa. Để giải quyết vấn đề này, vui lòng mở \u003Cspan class=\"product-info\">{%productname%}\u003C/span> và làm theo hướng dẫn được cung cấp."
+   },
+   "alert_page_missing_product_header": {
+      "message": "Thiếu sản phẩm"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "Hiện không có sản phẩm ESET nào được cài đặt trên máy tính của bạn hỗ trợ tiện ích mở rộng Quyền riêng tư & bảo mật trình duyệt ESET."
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "Để tìm hiểu thêm về tiện ích mở rộng, các sản phẩm ESET được hỗ trợ, các trình duyệt và cài đặt được hỗ trợ, hãy truy cập \u003Cspan class=\"online-help-link\">Trợ giúp trực tuyến\u003C/span>của chúng tôi."
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "Trình duyệt không được hỗ trợ"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "Có vẻ như bạn đang sử dụng trình duyệt mà chúng tôi chưa hỗ trợ. Để sử dụng tiện ích mở rộng Quyền riêng tư & bảo mật trình duyệt ESET, vui lòng cài đặt một trình duyệt được hỗ trợ."
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">Xem trình duyệt được hỗ trợ\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "Biểu tượng biểu ngữ thể hiện trạng thái OK"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "Biểu tượng biểu ngữ thể hiện trạng thái khởi động lại"
+   },
+   "browser_restart_needed_p": {
+      "message": "Cần phải khởi động lại trình duyệt để thay đổi này có hiệu lực."
+   },
+   "browsing_cleanup_all_data_btn": {
+      "message": "Tất cả"
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "Tùy chỉnh"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "Lịch sử duyệt web"
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "Lịch sử tải xuống"
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "Cookie và dữ liệu trang web"
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "Hình ảnh và tệp được lưu trong bộ nhớ đệm"
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "Mật khẩu và dữ liệu đăng nhập"
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "Dữ liệu tự động điền biểu mẫu"
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "Loại dữ liệu"
+   },
+   "browsing_cleanup_header": {
+      "message": "Dọn dẹp trình duyệt"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "Xóa dữ liệu duyệt web hoặc thiết lập dọn dẹp thường xuyên. Duy trì trạng thái đăng nhập vào các trang web đã chọn bằng cách \u003Cspan>thêm các trang web đó vào một danh sách.\u003C/span>"
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "Riêng tư"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "Loại dữ liệu riêng tư bao gồm lịch sử duyệt web, lịch sử tải xuống, cookie và dữ liệu trang web, dữ liệu tự động điền biểu mẫu."
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "Tất cả thời gian"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "Phiên duyệt web này"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "Giờ qua"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "24 giờ cuối cùng"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "Tuần qua"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "Tháng qua"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "Chọn khoảng thời gian"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "Xóa dữ liệu"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "Đã xóa"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "Xóa"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "Phạm vi thời gian"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "Dọn dẹp một lần"
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "Dọn dẹp thường xuyên"
+   },
+   "browsing_regular_cleanup_save_btn": {
+      "message": "Lưu cài đặt"
+   },
+   "browsing_regular_cleanup_save_btn_saved_text": {
+      "message": "Đã lưu"
+   },
+   "browsing_regular_cleanup_save_btn_saving_text": {
+      "message": "Đang lưu"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "Dữ liệu cũ hơn"
+   },
+   "close_icon_alt": {
+      "message": "Biểu tượng Đóng"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "eset_logo_alt": {
+      "message": "Logo ESET"
+   },
+   "eula_link": {
+      "message": "Thỏa thuận giấy phép người dùng cuối"
+   },
+   "extension_description": {
+      "message": "Tận hưởng khả năng bảo vệ trình duyệt mở rộng với Quyền riêng tư & bảo mật trình duyệt ESET."
+   },
+   "help_support_menu_item": {
+      "message": "Trợ giúp và hỗ trợ"
+   },
+   "info_icon_alt": {
+      "message": "Biểu tượng Thông tin"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "Dọn dẹp siêu dữ liệu mỗi khi bạn tải lên một hình ảnh."
+   },
+   "metadata_cleaner_func_header": {
+      "message": "Dọn dẹp dữ liệu khỏi tệp của bạn"
+   },
+   "metadata_cleaner_header": {
+      "message": "Dọn dẹp siêu dữ liệu"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "Xóa siêu dữ liệu có thông tin riêng tư khi chia sẻ tệp trực tuyến."
+   },
+   "metadata_notifications_func_header": {
+      "message": "Hiển thị thông báo sau khi dọn dẹp"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "Nhận thông báo trong trình duyệt."
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "Biểu tượng cảnh báo trạng thái siêu dữ liệu"
+   },
+   "notification_message_text": {
+      "message": "Siêu dữ liệu của tệp tải lên đã được dọn dẹp:"
+   },
+   "overview_menu_item": {
+      "message": "Tổng quan"
+   },
+   "privacy_policy_link": {
+      "message": "Chính sách quyền riêng tư"
+   },
+   "product_name": {
+      "message": "QUYỀN RIÊNG TƯ & BẢO MẬT TRÌNH DUYỆT"
+   },
+   "product_title": {
+      "message": "Quyền riêng tư & bảo mật trình duyệt ESET"
+   },
+   "product_version": {
+      "message": "Phiên bản:"
+   },
+   "progress_logo_alt": {
+      "message": "Logo Progress. Protected."
+   },
+   "scan_search_result_func_description": {
+      "message": "Quét kết quả tìm kiếm để xem kết quả nào an toàn để nhấp vào."
+   },
+   "scan_search_result_func_header": {
+      "message": "Quét kết quả tìm kiếm"
+   },
+   "secure_search_green_popup_text": {
+      "message": "Trang web này an toàn"
+   },
+   "secure_search_header": {
+      "message": "Tìm kiếm an toàn"
+   },
+   "secure_search_red_popup_text": {
+      "message": "Trang web này không an toàn"
+   },
+   "secure_search_subheader": {
+      "message": "Xem kết quả tìm kiếm nào an toàn để mở."
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "Đã tìm thấy nội dung không mong muốn tiềm ẩn"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "Tối"
+   },
+   "settings_page_appearance_description": {
+      "message": "Tùy chỉnh màu sắc của giao diện sao cho phù hợp với sở thích của bạn. Bạn có thể chọn giữa màu sáng hoặc màu tối."
+   },
+   "settings_page_appearance_header": {
+      "message": "Hình thức"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "Sáng"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "Chế độ màu"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "Miền được đề xuất dựa trên các tab mà bạn hiện đang mở trong trình duyệt của mình. Nếu bạn không thấy tất cả các tab hiện đang mở trong danh sách bên dưới, \u003Cspan class=\"refresh-list\">hãy làm mới danh sách.\u003C/span>"
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "Thêm"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "Giữ phiên duyệt web hiện tại cho các tab đang mở sau khi dọn dẹp"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "Thêm các trang web mà bạn muốn chấp nhận cookie và duy trì trạng thái đăng nhập ngay cả sau khi thực hiện dọn dẹp trình duyệt."
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "Nhập URL mà bạn muốn thêm"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "Trừ"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "Cộng"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "Cài đặt cookie nâng cao"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "*Nó không giống như một URL hợp lệ."
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "Cho phép"
+   },
+   "settings_page_website_settings_ask_text": {
+      "message": "Hỏi (mặc định)"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "Chặn"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "Xem lại những trang web nào có thể yêu cầu sử dụng máy ảnh của bạn."
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "Máy ảnh"
+   },
+   "settings_page_website_settings_description": {
+      "message": "Dễ dàng truy cập và quản lý quyền truy cập trang web để kiểm soát những thông tin mà trang web có thể sử dụng."
+   },
+   "settings_page_website_settings_header": {
+      "message": "Xem lại cài đặt trang web"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "Xem lại những trang web nào có thể yêu cầu vị trí của bạn."
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "Vị trí"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "Xem lại những trang web nào có thể yêu cầu sử dụng mi-crô của bạn."
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "Mi-crô"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "Xem lại những trang web nào có thể yêu cầu gửi thông báo."
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "Thông báo"
+   },
+   "setup_btn": {
+      "message": "THIẾT LẬP"
+   },
+   "summary_metadata_stats_text": {
+      "message": "Xóa siêu dữ liệu có thông tin riêng tư."
+   },
+   "summary_ok_header": {
+      "message": "Quá trình duyệt web của bạn được bảo vệ"
+   },
+   "summary_privacy_stats_text": {
+      "message": "Xóa dữ liệu duyệt web của bạn."
+   },
+   "summary_restart_header": {
+      "message": "Cần khởi động lại trình duyệt"
+   },
+   "summary_search_stats_text": {
+      "message": "Kiểm tra độ an toàn của kết quả tìm kiếm."
+   },
+   "summary_website_setting_header": {
+      "message": "Xem lại cài đặt trang web"
+   },
+   "summary_website_setting_text": {
+      "message": "Quản lý quyền truy cập trang web."
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "Xóa dữ liệu duyệt web hoặc thiết lập dọn dẹp thường xuyên."
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "Giữ tiện ích mở rộng hiển thị bằng cách nhấp vào biểu tượng tiện ích mở rộng ở trên và ghim tiện ích mở rộng vào trình duyệt để dễ dàng truy cập."
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "Giữ tiện ích mở rộng hiển thị bằng cách nhấp vào biểu tượng tiện ích mở rộng ở trên và thêm tiện ích mở rộng vào thanh công cụ của trình duyệt để dễ dàng truy cập."
+   },
+   "welcome_page_header_text": {
+      "message": "Cảm ơn bạn đã bật tiện ích mở rộng \u003Cspan>Quyền riêng tư & bảo mật trình duyệt ESET\u003C/span> trong trình duyệt của bạn"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "Dọn dẹp siêu dữ liệu*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "Loại bỏ thông tin riêng tư khỏi các tệp khi chia sẻ tệp trực tuyến."
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "Biểu tượng ghim"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "Biểu tượng plugin"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "Biểu tượng mũi tên sang phải"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "Kiểm tra độ an toàn của kết quả tìm kiếm trước khi mở chúng."
+   },
+   "welcome_page_subheader": {
+      "message": "Để bắt đầu tận hưởng trải nghiệm duyệt web an toàn hơn, hãy nhấp vào biểu tượng tiện ích mở rộng bên cạnh thanh địa chỉ. Trên một số trình duyệt, mục này có thể bị ẩn trong menu trình duyệt."
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*Có sẵn trong ESET HOME Security Ultimate"
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "Xem lại cài đặt trang web*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "Kiểm soát quyền truy cập trang web đối với thông báo, vị trí, máy ảnh và micrô."
+   }
+}

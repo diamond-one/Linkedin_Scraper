@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link type="text/css" rel="stylesheet" href="./css/popup.css">
+	<link type="text/css" rel="stylesheet" href="./css/loading.css">
+	<script defer src="../constants.js"></script>
+	<script defer src="../utils.js"></script>
+	<script defer src="localize.js"></script>
+	<script defer src="header.js"></script>
+	<script defer src="navbar.js"></script>
+	<script defer src="common.js"></script>
+	<script defer src="popup.js"></script>
+	<title>__MSG_product_name__</title>
+</head>
+
+<body>
+	<div class="loading-container">
+		<div id="tl">
+			<img src="assets/loading-logo.svg" alt=__MSG_eset_logo_alt__ />
+		</div>
+		<div id="bl">
+			<img src="assets/loading-pp-logo.svg" alt=__MSG_eset_logo_alt__ />
+		</div>
+	</div>
+
+	<div class="main-container">
+		<header id="popup-header">
+			<div class="menu-box">
+				<ul class="list-container">
+					<li>
+						<a class="menu-item" id="overview-settings-btn">
+							<div class="menu-icon">
+								<svg class="overview-setting-icon">
+									<use href="./assets/icons.svg#overview-setting-icon"></use>
+								</svg>
+							</div>
+							<div class="menu-text">__MSG_overview_menu_item__</div>
+						</a>
+					</li>
+					<li>
+						<a class="menu-item" id="menu-settings-btn">
+							<div class="menu-icon">
+								<svg class="menu-setting-icon">
+									<use href="./assets/icons.svg#menu-setting-icon"></use>
+								</svg>
+							</div>
+							<div class="menu-text">__MSG_advanced_setup_menu_item__</div>
+						</a>
+					</li>
+					<li>
+						<a class="menu-item" id="help-settings-btn">
+							<div class="menu-icon">
+								<svg class="menu-help-icon">
+									<use href="./assets/icons.svg#menu-help-icon"></use>
+								</svg>
+							</div>
+							<div class="menu-text">
+								__MSG_help_support_menu_item__
+								<div id="setting-link-icon">
+									<svg class="website-setting-external-icon">
+										<use href="./assets/icons.svg#website-setting-external-icon"></use>
+									</svg>
+								</div>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<ul id="menu-links">
+					<li><a href="https://help.eset.com/getHelp?product=essp&version=latest&lang=1033&topic=privacy_policy"
+							target="_blank">__MSG_privacy_policy_link__</a>
+					</li>
+					<li> <a href="https://help.eset.com/getHelp?product=essp&version=latest&lang=1033&topic=eula"
+							target="_blank">__MSG_eula_link__</a>
+					</li>
+					<li>__MSG_product_version__ <span id="version_no"> </span></li>
+				</ul>
+				<div class="menu-footer"><img src="./assets/progress-icon.svg" alt=__MSG_progress_logo_alt__></div>
+			</div>
+		</header>
+
+		<div class="main-content">
+			<div class="ok-banner">
+				<div class="banner-wrap" id="ok-bg" alt=__MSG_banner_ok_status_icon_alt__>
+					<div class="banner-icon">
+						<img src="./assets/status_ok.svg" width="42" alt=__MSG_banner_ok_status_icon_alt__>
+					</div>
+					<div class="banner-title">__MSG_summary_ok_header__</div>
+				</div>
+			</div>
+			<div class="restart-banner">
+				<div class="banner-wrap" id="restart-bg" alt=__MSG_banner_restart_status_icon_alt__>
+					<div class="banner-icon">
+						<img src="./assets/status_warning.svg" width="42" alt=__MSG_banner_restart_status_icon_alt__>
+					</div>
+					<div class="banner-title">__MSG_summary_restart_header__</div>
+				</div>
+			</div>
+
+			<div id="features-section-ultimate">
+				<div class="grid-item item-hover" id="secure-search-tile">
+					<div class="fr-heading">
+						<div class="fr-heading-row">
+							<div class="fl-icon">
+								<svg class="secure-search-icon">
+									<use href="./assets/icons.svg#secure-search-icon" />
+								</svg>
+							</div>
+							<div class="fr-btn secure-search-btn">
+								<button class="setup-btn">__MSG_setup_btn__</button>
+							</div>
+						</div>
+						<div class="fr-heading-text">
+							<div>__MSG_secure_search_header__</div>
+						</div>
+						<div class="fr-text">__MSG_summary_search_stats_text__</div>
+					</div>
+				</div>
+
+				<div class="grid-item item-hover" id="browser-cleanup-tile">
+					<div class="fr-heading">
+						<div class="fr-heading-row">
+							<div class="fl-icon">
+								<svg class="browser-cleanup-icon">
+									<use href="./assets/icons.svg#browser-cleanup-icon" />
+								</svg>
+							</div>
+						</div>
+						<div class="fr-heading-text">
+							<div>__MSG_browsing_cleanup_header__</div>
+						</div>
+						<div class="fr-text">__MSG_summary_privacy_stats_text__</div>
+					</div>
+				</div>
+
+				<div class="grid-item item-hover" id="metadata-cleanup-tile">
+					<div class="fr-heading">
+						<div class="fr-heading-row">
+							<div class="fl-icon">
+								<svg class="metadata-cleanup-icon">
+									<use href="./assets/icons.svg#metadata-cleanup-icon" />
+								</svg>
+							</div>
+							<div class="fr-btn" id="metadata-btn">
+								<button class="setup-btn">__MSG_setup_btn__</button>
+							</div>
+							<div class="fr-icon" id="metadata-icon"><img src="./assets/status_icon.svg"
+									alt=__MSG_metadata_warning_status_icon_alt__>
+							</div>
+						</div>
+						<div class="fr-heading-text">
+							<div>__MSG_metadata_cleaner_header__</div>
+						</div>
+						<div class="fr-text">__MSG_summary_metadata_stats_text__</div>
+					</div>
+				</div>
+
+				<div class="grid-item item-hover" id="website-setting-tile">
+					<div class="fr-heading">
+						<div class="fr-heading-row">
+							<div class="fl-icon">
+								<svg class="website-setting-icon">
+									<use href="./assets/icons.svg#website-setting-icon" />
+								</svg>
+							</div>
+						</div>
+						<div class="fr-heading-text website-setting-header">
+							<div>__MSG_summary_website_setting_header__</div>
+						</div>
+						<div class="fr-text">__MSG_summary_website_setting_text__</div>
+					</div>
+				</div>
+			</div>
+			<div id="features-section-default">
+				<div class="grid-item rows-2-grid item-hover" id="secure-search-row-item">
+					<div class="feature-heading-section">
+						<div class="fl-icon">
+							<svg class="secure-search-icon">
+								<use href="./assets/icons.svg#secure-search-icon" />
+							</svg>
+						</div>
+
+						<div class="fr-btn secure-search-btn">
+							<button class="setup-btn">__MSG_setup_btn__</button>
+						</div>
+					</div>
+					<div class="fr-heading-text">
+						<div>__MSG_secure_search_header__</div>
+					</div>
+					<div class="fr-text rows-2-grid-text">__MSG_summary_search_stats_text__</div>
+				</div>
+
+				<div class="grid-item rows-2-grid item-hover" id="browser-cleanup-row-item">
+					<div class="feature-heading-section">
+						<div class="fl-icon">
+							<svg class="browser-cleanup-icon">
+								<use href="./assets/icons.svg#browser-cleanup-icon" />
+							</svg>
+						</div>
+					</div>
+					<div class="fr-heading-text">
+						<div>__MSG_browsing_cleanup_header__</div>
+					</div>
+					<div class="fr-text rows-2-grid-text">__MSG_summary_privacy_stats_text__</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="overlay"></div>
+</body>
+
+</html>

@@ -1,0 +1,374 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "Avanceret opsætning"
+   },
+   "alert_icon_alt": {
+      "message": "Advarselsikon"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "Prøv igen"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "Forbindelsen er afbrudt"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "Forbindelsen mellem \u003Cspan class=\"product-info\">{%productname%}\u003C/span> og browserudvidelsen er afbrudt. Kontrollér din internetforbindelse, og prøv igen. Bemærk, at udvidelsen ikke virker, hvis \u003Cspan class=\"product-info\">{%productname%}\u003C/span> ikke er installeret."
+   },
+   "alert_page_expired_license_btn": {
+      "message": "Åbn \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "Udløbet abonnement"
+   },
+   "alert_page_expired_license_text": {
+      "message": "Dit abonnement er udløbet, og du kan ikke længere få adgang til udvidelsen ESET Beskyttelse af personlige oplysninger og sikkerhed i browser. Løs dette problem ved at åbne \u003Cspan class=\"product-info\">{%productname%}\u003C/span> og følge vejledningen."
+   },
+   "alert_page_missing_product_header": {
+      "message": "Manglende produkt"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "Der er i øjeblikket ikke installeret noget ESET-produkt på din computer, der understøtter udvidelsen ESET Beskyttelse af personlige oplysninger og sikkerhed i browser."
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "Du kan få mere at vide om udvidelsen, understøttede ESET-produkter, understøttede browsere og installation ved at besøge vores \u003Cspan class=\"online-help-link\">onlinehjælp.\u003C/span>"
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "Browseren understøttes ikke"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "Det ser ud til, at du bruger en browser, som vi ikke understøtter endnu. Hvis du vil bruge udvidelsen ESET Beskyttelse af personlige oplysninger og sikkerhed i browser, skal du installere en understøttet browser."
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">Se understøttede browsere\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "Ikon for OK-statusbanner"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "Ikon for genstart statusbanner"
+   },
+   "browser_restart_needed_p": {
+      "message": "Browseren skal genstartes, for at ændringen kan træde i kraft."
+   },
+   "browsing_cleanup_all_data_btn": {
+      "message": "Alle"
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "Tilpasset"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "Beskedoversigt"
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "Downloadhistorik"
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "Cookies og webstedsdata"
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "Cachelagrede billeder og filer"
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "Adgangskoder og logondata"
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "Data til automatisk udfyldning af formularer"
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "Datatype"
+   },
+   "browsing_cleanup_header": {
+      "message": "Browseroprydning"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "Slet browserdata, eller opret regelmæssige oprydninger. Forbliv logget ind på udvalgte websteder ved \u003Cspan>at føje dem til en liste.\u003C/span>"
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "Privat"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "Privat datatype inkluderer din browserhistorik, downloadhistorik, cookies og webstedsdata, data til automatisk udfyldning af formular."
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "Alle"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "Denne browsersession"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "Sidste time"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "De sidste 24 timer"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "Sidste uge"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "Sidste måned"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "Vælg tidsinterval"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "Slet data"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "Slettet"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "Sletter"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "Tidsinterval"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "Engangsoprydning"
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "Regelmæssig oprydning"
+   },
+   "browsing_regular_cleanup_save_btn": {
+      "message": "Gem indstillinger"
+   },
+   "browsing_regular_cleanup_save_btn_saved_text": {
+      "message": "Gem"
+   },
+   "browsing_regular_cleanup_save_btn_saving_text": {
+      "message": "Gemmer"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "Data, der er ældre end"
+   },
+   "close_icon_alt": {
+      "message": "Ikonet Luk"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "eset_logo_alt": {
+      "message": "ESET-logo"
+   },
+   "eula_link": {
+      "message": "Slutbrugerlicensaftale"
+   },
+   "extension_description": {
+      "message": "Udnyt den udvidede browserbeskyttelse med ESET Beskyttelse af personlige oplysninger og sikkerhed i browser."
+   },
+   "help_support_menu_item": {
+      "message": "Hjælp og support"
+   },
+   "info_icon_alt": {
+      "message": "Ikonet Oplysninger"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "Rens metadata, hver gang du uploader et billede."
+   },
+   "metadata_cleaner_func_header": {
+      "message": "Rens data fra dine filer"
+   },
+   "metadata_cleaner_header": {
+      "message": "Metadataoprydning"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "Fjern metadata med private oplysninger, når du deler filer online."
+   },
+   "metadata_notifications_func_header": {
+      "message": "Vis meddelelser efter oprydning"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "Få meddelelser i browseren."
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "Ikon for advarsel om metadatastatus"
+   },
+   "notification_message_text": {
+      "message": "Metadata renset i uploadet fil:"
+   },
+   "overview_menu_item": {
+      "message": "Oversigt"
+   },
+   "privacy_policy_link": {
+      "message": "Fortrolighedspolitik"
+   },
+   "product_name": {
+      "message": "BESKYTTELSE AF PERSONLIGE OPLYSNINGER OG SIKKERHED I BROWSER"
+   },
+   "product_title": {
+      "message": "ESET Beskyttelse af personlige oplysninger og sikkerhed i browser"
+   },
+   "product_version": {
+      "message": "Version:"
+   },
+   "progress_logo_alt": {
+      "message": "Logo for Progress. Protected."
+   },
+   "scan_search_result_func_description": {
+      "message": "Scan søgeresultater for at se, hvilke der er sikre at klikke på."
+   },
+   "scan_search_result_func_header": {
+      "message": "Scan søgeresultater"
+   },
+   "secure_search_green_popup_text": {
+      "message": "Dette websted er sikkert"
+   },
+   "secure_search_header": {
+      "message": "Sikker søgning"
+   },
+   "secure_search_red_popup_text": {
+      "message": "Dette websted er ikke sikkert"
+   },
+   "secure_search_subheader": {
+      "message": "Se, hvilke søgeresultater det er sikkert at åbne."
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "Der blev fundet potentielt uønsket indhold"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "Mørkt"
+   },
+   "settings_page_appearance_description": {
+      "message": "Tilpas farven på grænsefladen, så den passer til dine præferencer. Du kan vælge mellem en lys eller mørk farve."
+   },
+   "settings_page_appearance_header": {
+      "message": "Udseende"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "Lys"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "Farvetilstand"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "Foreslåede domæner baseret på de faner, du i øjeblikket har åbne i din browser. Hvis du ikke kan se alle åbne faner på listen nedenfor, \u003Cspan class=\"refresh-list\">skal du opdatere listen.\u003C/span>"
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "Tilføj"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "Behold den aktuelle browsersession for åbne faner efter oprydning"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "Tilføj websteder, hvor du vil acceptere cookies og forblive logget ind, selv efter at du har udført browseroprydning."
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "Angiv en webadresse, du vil tilføje"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "Minus"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "Plus"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "Avancerede cookieindstillinger"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "*Det ligner ikke en gyldig webadresse."
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "Tillad"
+   },
+   "settings_page_website_settings_ask_text": {
+      "message": "Spørg (standard)"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "Bloker"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "Gennemgå, hvilke websteder der kan anmode om at bruge dit kamera."
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "Kamera"
+   },
+   "settings_page_website_settings_description": {
+      "message": "Tilgå og administrer nemt webstedstilladelser for at styre, hvilke oplysninger websteder kan bruge."
+   },
+   "settings_page_website_settings_header": {
+      "message": "Gennemgang af webstedsindstillinger"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "Gennemgå, hvilke websteder der kan bede om din placering."
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "Placering"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "Gennemgå, hvilke websteder der kan anmode om at bruge din mikrofon."
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "Mikrofon"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "Gennemgå, hvilke websteder der kan anmode om at sende meddelelser."
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "Meddelelser"
+   },
+   "setup_btn": {
+      "message": "KONFIGURER"
+   },
+   "summary_metadata_stats_text": {
+      "message": "Fjern metadata med private oplysninger."
+   },
+   "summary_ok_header": {
+      "message": "Din browsing er beskyttet"
+   },
+   "summary_privacy_stats_text": {
+      "message": "Slet dine browserdata."
+   },
+   "summary_restart_header": {
+      "message": "Browseren skal genstartes"
+   },
+   "summary_search_stats_text": {
+      "message": "Kontrollér sikkerheden af søgeresultaterne."
+   },
+   "summary_website_setting_header": {
+      "message": "Gennemgang af webstedsindstillinger"
+   },
+   "summary_website_setting_text": {
+      "message": "Administrer webstedstilladelser."
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "Slet browserdata, eller opret en regelmæssig oprydning."
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "Hold udvidelsen synlig ved at klikke på udvidelsesikonet ovenfor og fastgøre det i browseren for nem adgang."
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "Hold udvidelsen synlig ved at klikke på udvidelsesikonet ovenfor og føje det til browserens værktøjslinje for nem adgang."
+   },
+   "welcome_page_header_text": {
+      "message": "Tak, fordi du aktiverede udvidelsen \u003Cspan>ESET Beskyttelse af personlige oplysninger og sikkerhed i browser\u003C/span> i din browser"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "Metadataoprydning*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "Fjern private oplysninger fra filer, når du deler dem online."
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "Fastgør-ikon"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "Plugin-ikon"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "Ikon for højre pil"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "Kontrollér sikkerheden af søgeresultater, før du åbner dem."
+   },
+   "welcome_page_subheader": {
+      "message": "For at komme i gang med at udnytte alle de praktiske funktioner, som ESET Password Manager tilbyder, skal du klikke på udvidelsesikonet ud for adresselinjen. I nogle browsere er det skjult i browsermenuen."
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*Tilgængelig i ESET HOME Security Ultimate"
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "Gennemgang af webstedsindstillinger*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "Kontrollér webstedstilladelser for meddelelser, placering, kamera og mikrofon."
+   }
+}

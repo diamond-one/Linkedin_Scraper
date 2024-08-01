@@ -1,0 +1,374 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "Napredne nastavitve"
+   },
+   "alert_icon_alt": {
+      "message": "Ikona opozorila"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "Poskusi znova"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "Povezava je prekinjena"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "Povezava med programom \u003Cspan class=\"product-info\">{%productname%}\u003C/span> in razširitvijo brskalnika je bila prekinjena. Preverite internetno povezavo in poskusite znova. Upoštevajte, da razširitev ne bo delovala, če\u003Cspan class=\"product-info\">{%productname%}\u003C/span> ni nameščen."
+   },
+   "alert_page_expired_license_btn": {
+      "message": "Odpri \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "Naročnina je potekla"
+   },
+   "alert_page_expired_license_text": {
+      "message": "Vaša naročnina je potekla in ne morete več dostopati do funkcije ESET Zasebnost in varnost brskalnika. Če želite odpraviti to težavo, odprite \u003Cspan class=\"product-info\">{%productname%}\u003C/span> in sledite navodilom."
+   },
+   "alert_page_missing_product_header": {
+      "message": "Manjkajoči izdelek"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "Trenutno v računalniku ni nameščen noben izdelek ESET, ki bi podpiral razširitev Zasebnost in varnost brskalnika ESET."
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "Če želite izvedeti več o razširitvi, podprtih izdelkih ESET, podprtih brskalnikih in namestitvi, obiščite našo \u003Cspan class=\"online-help-link\">spletno pomoč.\u003C/span>"
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "Nepodprt brskalnik"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "Zdi se, da uporabljate brskalnik, ki ga še ne podpiramo. Če želite uporabiti razširitev Zasebnost in varnost brskalnika ESET, namestite podprt brskalnik."
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">Ni podprtih brskalnikov\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "Ikona pasice stanja »V redu«"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "Ikona pasice stanja ponovnega zagona"
+   },
+   "browser_restart_needed_p": {
+      "message": "Če želite uveljaviti spremembo, je potrebno znova zagnati brskalnik."
+   },
+   "browsing_cleanup_all_data_btn": {
+      "message": "Vse"
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "Po meri"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "Zgodovina brskanja"
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "Zgodovina prenosov"
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "Piškotki in podatki spletnega mesta"
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "Predpomnjene slike in datoteke"
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "Gesla in podatki za vpis"
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "Podatki za samodejno izpolnjevanje obrazcev"
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "Vrsta podatkov"
+   },
+   "browsing_cleanup_header": {
+      "message": "Čiščenje brskalnika"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "Izbrišite podatke brskanja ali nastavite redna čiščenja. Ostanite prijavljeni na izbranih spletnih mestih tako, da jih \u003Cspan>dodate na seznam.\u003C/span>"
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "Zasebno"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "Vrsta zasebnih podatkov vključuje zgodovino brskanja, zgodovino prenosov, piškotke in podatke spletnih mest, podatke za samodejno izpolnjevanje obrazcev."
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "Ves čas"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "Ta seja brskanja"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "Zadnja ura"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "Zadnjih 24 ur"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "Prejšnji teden"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "Prejšnji mesec"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "Izberite časovno obdobje"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "Brisanje podatkov"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "Izbrisano"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "Brisanje"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "Časovni razpon"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "Enkratno čiščenje"
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "Redno čiščenje"
+   },
+   "browsing_regular_cleanup_save_btn": {
+      "message": "Shrani nastavitve"
+   },
+   "browsing_regular_cleanup_save_btn_saved_text": {
+      "message": "Shranjeno"
+   },
+   "browsing_regular_cleanup_save_btn_saving_text": {
+      "message": "Shranjevanje"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "Podatki, starejši od"
+   },
+   "close_icon_alt": {
+      "message": "Ikona za zapiranje"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "eset_logo_alt": {
+      "message": "Logotip družbe ESET"
+   },
+   "eula_link": {
+      "message": "Licenčna pogodba za končnega uporabnika"
+   },
+   "extension_description": {
+      "message": "Uživajte v razširjeni zaščiti brskalnika z razširitvijo ESET Zasebnost in varnost brskalnika."
+   },
+   "help_support_menu_item": {
+      "message": "Pomoč in podpora"
+   },
+   "info_icon_alt": {
+      "message": "Ikona za informacije"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "Očistite metapodatke vsakič, ko naložite sliko."
+   },
+   "metadata_cleaner_func_header": {
+      "message": "Čiščenje podatkov iz datotek"
+   },
+   "metadata_cleaner_header": {
+      "message": "Čiščenje metapodatkov"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "Pri skupni rabi datotek v spletu odstranite metapodatke z zasebnimi podatki."
+   },
+   "metadata_notifications_func_header": {
+      "message": "Prikaz obvestil po čiščenju"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "Prejemajte obvestila v brskalniku."
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "Ikona opozorila o stanju metapodatkov"
+   },
+   "notification_message_text": {
+      "message": "Očiščeni metapodatki naložene datoteke:"
+   },
+   "overview_menu_item": {
+      "message": "Pregled"
+   },
+   "privacy_policy_link": {
+      "message": "Pravilnik o zasebnosti"
+   },
+   "product_name": {
+      "message": "ZASEBNOST IN VARNOST BRSKALNIKA"
+   },
+   "product_title": {
+      "message": "Zasebnost in varnost brskalnika ESET"
+   },
+   "product_version": {
+      "message": "Različica:"
+   },
+   "progress_logo_alt": {
+      "message": "Progress. Protected. logotip"
+   },
+   "scan_search_result_func_description": {
+      "message": "Preglejte rezultate iskanja in si oglejte, katere lahko varno kliknete."
+   },
+   "scan_search_result_func_header": {
+      "message": "Pregled rezultatov iskanja"
+   },
+   "secure_search_green_popup_text": {
+      "message": "Ta spletna stran je varna"
+   },
+   "secure_search_header": {
+      "message": "Varno iskanje"
+   },
+   "secure_search_red_popup_text": {
+      "message": "Ta spletna stran je varna"
+   },
+   "secure_search_subheader": {
+      "message": "Oglejte si, katere rezultate iskanja je varno odpreti."
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "Najdena morebitno neželena vsebina"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "Temno"
+   },
+   "settings_page_appearance_description": {
+      "message": "Prilagodite barvo vmesnika svojim željam. Izbirate lahko med svetlo ali temno barvo."
+   },
+   "settings_page_appearance_header": {
+      "message": "Videz"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "Svetlo"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "Barvni način"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "Predlagane domene na podlagi zavihkov, ki jih imate trenutno odprte v brskalniku. Če na spodnjem seznamu ne vidite vseh trenutno odprtih zavihkov, \u003Cspan class=\"refresh-list\">osvežite seznam.\u003C/span>"
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "Dodaj"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "Obdržite trenutno sejo brskanja za odprte zavihke po čiščenju"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "Dodajte spletna mesta, kjer želite sprejeti piškotke in ostati prijavljeni tudi po čiščenju brskalnika."
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "Vnesite URL, ki ga želite dodati"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "Minus"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "Plus"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "Napredne nastavitve piškotkov"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "*To se ne zdi veljaven URL."
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "Dovoli"
+   },
+   "settings_page_website_settings_ask_text": {
+      "message": "Vprašaj (privzeto)"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "Blokiraj"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "Preglejte, katera spletna mesta lahko prosijo za uporabo kamere."
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "Fotoaparat"
+   },
+   "settings_page_website_settings_description": {
+      "message": "Preprosto dostopajte do dovoljenj za spletna mesta in jih upravljajte, da imate nadzor na tem, katere informacije lahko spletna mesta uporabljajo."
+   },
+   "settings_page_website_settings_header": {
+      "message": "Pregled nastavitev za spletna mesta"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "Preglejte, katera spletna mesta lahko prosijo za vašo lokacijo."
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "Lokacija"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "Preglejte, katera spletna mesta lahko prosijo za uporabo mikrofona."
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "Mikrofon"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "Preglejte, katera spletna mesta lahko prosijo za pošiljanje obvestil."
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "Obvestila"
+   },
+   "setup_btn": {
+      "message": "NASTAVI"
+   },
+   "summary_metadata_stats_text": {
+      "message": "Odstranite metapodatke z zasebnimi podatki."
+   },
+   "summary_ok_header": {
+      "message": "Vaše brskanje je zaščiteno"
+   },
+   "summary_privacy_stats_text": {
+      "message": "Izbrišite podatke brskanja."
+   },
+   "summary_restart_header": {
+      "message": "Potreben je ponovni zagon brskalnika"
+   },
+   "summary_search_stats_text": {
+      "message": "Preverite varnost rezultatov iskanja."
+   },
+   "summary_website_setting_header": {
+      "message": "Pregled nastavitev za spletna mesta"
+   },
+   "summary_website_setting_text": {
+      "message": "Upravljajte dovoljenja za spletna mesta."
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "Izbrišite podatke brskanja ali nastavite redno čiščenje."
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "Razširitev ohranite vidno tako, da kliknete zgornjo ikono razširitve in jo pripnete v brskalnik za lažji dostop."
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "Razširitev ohranite vidno tako, da kliknete zgornjo ikono razširitve in jo dodate v orodno vrstico brskalnika za lažji dostop."
+   },
+   "welcome_page_header_text": {
+      "message": "Hvala, ker ste v brskalniku omogočili razširitev \u003Cspan>Zasebnost in varnost brskalnika ESET\u003C/span>"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "Čiščenje metapodatkov*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "Ko datoteke delite v spletu, iz njih odstranite zasebne podatke."
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "Ikona pripenjanja"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "Ikona vtičnika"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "Ikona puščice desno"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "Preverite varnost rezultatov iskanja, preden jih odprete."
+   },
+   "welcome_page_subheader": {
+      "message": "Če želite začeti uporabljati varnejšo izkušnjo brskanja, kliknite ikono razširitve ob naslovni vrstici. V nekaterih brskalnikih je morda skrita v meniju brskalnika."
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*Na voljo v programu ESET HOME Security Ultimate"
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "Pregled nastavitev za spletna mesta*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "Nadzirajte dovoljenja spletnega mesta za obvestila, lokacijo, kamero in mikrofon."
+   }
+}

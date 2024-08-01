@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link type="text/css" rel="stylesheet" href="./css/popup.css">
+	<script defer src="../constants.js"></script>
+	<script defer src="localize.js"></script>
+	<script defer src="header.js"></script>
+	<script defer src="navigation.js"></script>
+	<script defer src="common.js"></script>
+	<script defer src="exifcleaner.js"></script>
+	<title>__MSG_metadata_cleaner_header__</title>
+</head>
+
+<body>
+	<div class="main-container">
+		<header id="popup-header"></header>
+		<div class="main-content">
+			<div id="popup-subheader">
+				<h3>__MSG_metadata_cleaner_header__</h3>
+				<p>__MSG_metadata_cleaner_subheader__</p>
+			</div>
+
+			<div id="main-section">
+				<form id="optionsForm">
+					<div class="flex-row">
+						<div class="fl">
+
+							<h4>__MSG_metadata_cleaner_func_header__</h4>
+							<div class="sub-text">
+								<p>__MSG_metadata_cleaner_func_description__</p>
+							</div>
+						</div>
+						<div class="fr">
+							<div class="box-center">
+								<label for="exif-switch" class="switch">
+									<input type="checkbox" name="exif" id="exif-switch">
+									<span id="exif-slider" class="slider round"></span>
+								</label>
+							</div>
+						</div>
+					</div>
+					<div id="metadata-tooltip">
+						<img src="./assets/status_icon.svg" width="21" alt=__MSG_info_icon_alt__>
+						<p>__MSG_browser_restart_needed_p__</p>
+					</div>
+					<hr>
+					<div class="flex-row" id="exif-notif-section">
+						<div class="fl">
+							<h4>__MSG_metadata_notifications_func_header__</h4>
+							<div class="sub-text">
+								<p>__MSG_metadata_notifications_func_subheader__</p>
+							</div>
+						</div>
+						<div class="fr">
+							<div class="box-center">
+								<label for="notif-switch" class="switch">
+									<input type="checkbox" name="notif" id="notif-switch">
+									<span id="notif-slider" class="slider round"></span>
+								</label>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="overlay"></div>
+</body>
+
+</html>

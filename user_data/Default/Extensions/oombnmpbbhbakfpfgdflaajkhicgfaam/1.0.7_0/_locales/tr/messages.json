@@ -1,0 +1,374 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "Gelişmiş ayarlar"
+   },
+   "alert_icon_alt": {
+      "message": "Uyarı simgesi"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "Tekrar dene"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "Bağlantı kesildi"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "\u003Cspan class=\"product-info\">{%productname%}\u003C/span> ile tarayıcı uzantısı arasındaki bağlantı kesildi. Lütfen internet bağlantınızı kontrol edip tekrar deneyin. Uzantının \u003Cspan class=\"product-info\">{%productname%}\u003C/span> yüklenmeden çalışmayacağını unutmayın."
+   },
+   "alert_page_expired_license_btn": {
+      "message": "Aç \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "Süresi dolmuş abonelik"
+   },
+   "alert_page_expired_license_text": {
+      "message": "Aboneliğinizin süresi dolduğu için artık ESET Tarayıcı Gizliliği ve Güvenlik uzantısına erişemezsiniz. Bu sorunu çözmek için lütfen \u003Cspan class=\"product-info\">{%productname%}\u003C/span> ürününü açın ve sağlanan talimatları izleyin."
+   },
+   "alert_page_missing_product_header": {
+      "message": "Eksik ürün"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "Şu anda bilgisayarınızda ESET Tarayıcı Gizliliği ve Güvenlik uzantısını destekleyen bir ESET ürünü yüklü değil."
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "Uzantı, desteklenen ESET ürünleri, desteklenen tarayıcılar ve yükleme hakkında daha fazla bilgi edinmek için \u003Cspan class=\"online-help-link\">Çevrimiçi Yardım\u003C/span> sayfamızı ziyaret edin."
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "Desteklenmeyen tarayıcı"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "Henüz desteklemediğimiz bir tarayıcı kullandığınız görülüyor. ESET Tarayıcı Gizliliği ve Güvenlik uzantısını kullanmak için lütfen desteklenen bir tarayıcı yükleyin."
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">Desteklenen tarayıcılara bakın\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "Tamam durum banner'ı simgesi"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "Yeniden başlat durum banner'ı simgesi"
+   },
+   "browser_restart_needed_p": {
+      "message": "Bu değişikliğin geçerli olması için tarayıcının yeniden başlatılması gerekir."
+   },
+   "browsing_cleanup_all_data_btn": {
+      "message": "Tümü"
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "Özel"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "Tarama geçmişi"
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "İndirme geçmişi"
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "Çerezler ve web sitesi verileri"
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "Önbelleğe alınan resimler ve dosyalar"
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "Parolalar ve oturum açma verileri"
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "Form otomatik doldurma verileri"
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "Veri türü"
+   },
+   "browsing_cleanup_header": {
+      "message": "Tarayıcı Temizliği"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "Tarama verilerini silin veya düzenli temizlik ayarlayın. Seçili web sitelerini \u003Cspan>bir listeye ekleyerek\u003C/span> bu sitelerdeki oturumunuzu açık tutun."
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "Özel"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "Özel veri türü; tarama geçmişinizi, indirme geçmişinizi, çerezleri ve web sitesi verilerini, form otomatik doldurma verilerini."
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "Her zaman"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "Bu gezinme oturumu"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "Son saat"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "Son 24 saat"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "Geçen hafta"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "Geçen ay"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "Zaman aralığı seçin"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "Verileri sil"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "Silindi"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "Siliniyor"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "Zaman aralıkları"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "Tek seferlik temizlik"
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "Düzenli temizlik"
+   },
+   "browsing_regular_cleanup_save_btn": {
+      "message": "Ayarları kaydet"
+   },
+   "browsing_regular_cleanup_save_btn_saved_text": {
+      "message": "Kaydedildi"
+   },
+   "browsing_regular_cleanup_save_btn_saving_text": {
+      "message": "Kaydediliyor"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "Şundan daha eski veriler"
+   },
+   "close_icon_alt": {
+      "message": "Kapat simgesi"
+   },
+   "direction": {
+      "message": "LTR"
+   },
+   "eset_logo_alt": {
+      "message": "ESET logosu"
+   },
+   "eula_link": {
+      "message": "Son Kullanıcı Lisans Sözleşmesi"
+   },
+   "extension_description": {
+      "message": "ESET Tarayıcı Gizliliği ve Güvenlik ile genişletilmiş tarayıcı korumasının keyfini çıkarın."
+   },
+   "help_support_menu_item": {
+      "message": "Yardım ve destek"
+   },
+   "info_icon_alt": {
+      "message": "Bilgi simgesi"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "Her resim yüklediğinizde meta verileri temizleyin."
+   },
+   "metadata_cleaner_func_header": {
+      "message": "Dosyalarınızdaki verileri temizleyin"
+   },
+   "metadata_cleaner_header": {
+      "message": "Meta Veri Temizliği"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "Dosyaları çevrimiçi paylaşırken özel bilgiler içeren meta verileri kaldırın."
+   },
+   "metadata_notifications_func_header": {
+      "message": "Temizlemeden sonra bildirimleri göster"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "Tarayıcı içi bildirimler alın."
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "Meta veri durumu uyarı simgesi"
+   },
+   "notification_message_text": {
+      "message": "Yüklenen dosya meta verileri temizlendi:"
+   },
+   "overview_menu_item": {
+      "message": "Genel Bakış"
+   },
+   "privacy_policy_link": {
+      "message": "Gizlilik Politikası"
+   },
+   "product_name": {
+      "message": "TARAYICI GİZLİLİĞİ VE GÜVENLİK"
+   },
+   "product_title": {
+      "message": "ESET Tarayıcı Gizliliği ve Güvenliği"
+   },
+   "product_version": {
+      "message": "Sürüm:"
+   },
+   "progress_logo_alt": {
+      "message": "Progress. Protected. logosu"
+   },
+   "scan_search_result_func_description": {
+      "message": "Hangilerini tıklamanın güvenli olduğunu görmek için arama sonuçlarını tarayın."
+   },
+   "scan_search_result_func_header": {
+      "message": "Arama sonuçlarını tarayın"
+   },
+   "secure_search_green_popup_text": {
+      "message": "Bu web sitesi güvenlidir"
+   },
+   "secure_search_header": {
+      "message": "Güvenli Arama"
+   },
+   "secure_search_red_popup_text": {
+      "message": "Bu web sitesi güvenli değil"
+   },
+   "secure_search_subheader": {
+      "message": "Hangi arama sonuçlarını açmanın güvenli olduğunu görün."
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "İstenmeyen türden olabilecek içerik bulundu"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "Koyu"
+   },
+   "settings_page_appearance_description": {
+      "message": "Arayüzün rengini tercihinize göre özelleştirin. Açık veya koyu renk arasında seçim yapabilirsiniz."
+   },
+   "settings_page_appearance_header": {
+      "message": "Görünüm"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "Hafif"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "Renk modu"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "Tarayıcınızda açık olan sekmelere göre önerilen etki alanları. Şu anda açık olan tüm sekmeleri aşağıdaki listede görmüyorsanız \u003Cspan class=\"refresh-list\">listeyi yenileyin.\u003C/span>"
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "Ekle"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "Temizlikten sonra açık sekmeler için geçerli gezinme oturumunu sürdür"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "Çerezleri kabul etmek istediğiniz web sitelerini ekleyerek tarayıcı temizliği yapıldıktan sonra bile bu sitelerdeki oturumunuzun açık kalmasını sağlayın."
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "Eklemek istediğiniz bir URL girin"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "Eksi"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "Artı"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "Gelişmiş çerez ayarları"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "*Bu, geçerli bir URL'ye benzemiyor."
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "İzin ver"
+   },
+   "settings_page_website_settings_ask_text": {
+      "message": "Sor (varsayılan)"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "Engelle"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "Hangi web sitelerinin kameranızı kullanmak isteyebileceğini inceleyin."
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "Kamera"
+   },
+   "settings_page_website_settings_description": {
+      "message": "Web sitelerinin hangi bilgileri kullanabileceğini denetlemek için web sitesi izinlerine kolayca erişin ve bunları yönetin."
+   },
+   "settings_page_website_settings_header": {
+      "message": "Web Sitesi Ayarlarını Gözden Geçirme"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "Hangi web sitelerinin konumunuzu isteyebileceğini inceleyin."
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "Konum"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "Hangi web sitelerinin mikrofonunuzu kullanmak isteyebileceğini inceleyin."
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "Mikrofon"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "Hangi web sitelerinin bildirim göndermeyi isteyebileceğini inceleyin."
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "Bildirimler"
+   },
+   "setup_btn": {
+      "message": "AYARLA"
+   },
+   "summary_metadata_stats_text": {
+      "message": "Özel bilgiler içeren meta verileri kaldırın."
+   },
+   "summary_ok_header": {
+      "message": "Gezinmeniz korunuyor"
+   },
+   "summary_privacy_stats_text": {
+      "message": "Tarama verilerinizi silin."
+   },
+   "summary_restart_header": {
+      "message": "Tarayıcının yeniden başlatılması gerekli"
+   },
+   "summary_search_stats_text": {
+      "message": "Arama sonuçlarının güvenliğini kontrol edin."
+   },
+   "summary_website_setting_header": {
+      "message": "Web Sitesi Ayarlarını Gözden Geçirme"
+   },
+   "summary_website_setting_text": {
+      "message": "Web sitesi izinlerini yönetin."
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "Tarama verilerini silin veya düzenli bir temizlik ayarlayın."
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "Yukarıdaki uzantı simgesini tıklayıp kolay erişim için tarayıcıya sabitleyerek uzantıyı görünür halde bırakın."
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "Yukarıdaki uzantı simgesini tıklayıp kolay erişim için tarayıcının araç çubuğuna ekleyerek uzantıyı görünür halde bırakın."
+   },
+   "welcome_page_header_text": {
+      "message": "Tarayıcınızda \u003Cspan>ESET Tarayıcı Gizliliği ve Güvenliği\u003C/span> uzantısını etkinleştirdiğiniz için teşekkür ederiz"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "Meta Veri Temizliği*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "Çevrimiçi paylaşırken özel bilgilerin yer aldığı dosyalarını çıkarın."
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "Raptiye simgesi"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "Eklenti simgesi"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "Sağ ok simgesi"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "Arama sonuçlarını açmadan önce güvenliğini kontrol edin."
+   },
+   "welcome_page_subheader": {
+      "message": "Daha güvenli bir tarama deneyiminden yararlanmaya başlamak için adres çubuğunun yanındaki uzantı simgesini tıklayın. Bu simge bazı tarayıcılarda, tarama menüsünde gizli olabilir."
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*ESET HOME Security Ultimate ürününde mevcuttur"
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "Web Sitesi Ayarlarını Gözden Geçirme*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "Bildirimler, konum, kamera ve mikrofon için web sitesi izinlerini kontrol edin."
+   }
+}
