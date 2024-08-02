@@ -10,6 +10,10 @@ This project is a Python-based LinkedIn job scraper using Selenium. The scraper 
 - **CSV Export**: Saves the collected data into a CSV file for easy access and analysis.
 - **Dynamic URL and Job ID Extraction**: Extracts the current job's URL and job ID dynamically from the browser.
 
+*Raw data example*
+![image](https://github.com/user-attachments/assets/68488440-5f51-42be-80d2-5dfdaeb0a964)
+
+
 ## Requirements
 
 - Python 3.x
