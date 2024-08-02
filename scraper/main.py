@@ -63,7 +63,7 @@ class Search(LinkedIn):
         last_height = self.webpage.execute_script("return arguments[0].scrollHeight", job_list_container)
         while True:
             self.webpage.execute_script("arguments[0].scrollTo(0, arguments[0].scrollHeight);", job_list_container)
-            time.sleep(2)  # Wait for new data to load
+            time.sleep(1)  # Wait for new data to load
             new_height = self.webpage.execute_script("return arguments[0].scrollHeight", job_list_container)
             if new_height == last_height:
                 break
@@ -168,7 +168,7 @@ class Search(LinkedIn):
 
                 # Click on the job title to go to the job detail page
                 job_element.click()
-                time.sleep(4)  # Wait for the page to load
+                time.sleep(1.5)  # Wait for the page to load
 
                 # Extract job posting URL and Job ID
                 job_posting_url = self.webpage.current_url
@@ -283,7 +283,7 @@ class Search(LinkedIn):
         Click the 'Next' button to go to the next page of job results.
         """
         try:
-            next_button = WebDriverWait(self.webpage, 10).until(
+            next_button = WebDriverWait(self.webpage, 5).until(
                 EC.presence_of_element_located((By.XPATH, self.NEXT_BUTTON_XPATH))
             )
             self.webpage.execute_script("arguments[0].scrollIntoView();", next_button)
@@ -317,7 +317,7 @@ class Search(LinkedIn):
 if __name__ == "__main__":
     # Define your search query here
     query = {
-        'keywords': 'Data Analyst',
+        'keywords': 'Machine Learning Engineer',
         'location': 'European Union'
     }
 
