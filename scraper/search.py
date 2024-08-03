@@ -1,3 +1,4 @@
+
 import time
 from datetime import datetime, timedelta
 import urllib.parse
@@ -8,7 +9,6 @@ from selenium.common.exceptions import StaleElementReferenceException, NoSuchEle
 import sys
 import os
 import csv
-from datetime import datetime
 import re
 
 # Include the parent directory in sys.path to access LinkedIn class
@@ -200,9 +200,13 @@ class Search(LinkedIn):
                     try:
                         posted_time_element = self.webpage.find_element(By.XPATH, '//*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/span[3]/span[2]')
                         posted_time = posted_time_element.text if posted_time_element else "N/A"
-                    except Exception as e:
-                        posted_time = "N/A"
-                        print(f"Error extracting posted time: {e} URL: {job_posting_url}")
+                    except NoSuchElementException:
+                        try:
+                            posted_time_element = self.webpage.find_element(By.XPATH, '//*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/span[3]/span')
+                            posted_time = posted_time_element.text if posted_time_element else "N/A"
+                        except Exception as e:
+                            posted_time = "N/A"
+                            print(f"Error extracting posted time: {e} URL: {job_posting_url}")
 
                 # Parse and format posted time
                 try:
@@ -228,7 +232,7 @@ class Search(LinkedIn):
                 try:
                     applicants_element = self.webpage.find_element(By.XPATH, '//*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/span[5]')
                     applicants_raw = applicants_element.text if applicants_element else "N/A"
-                    applicants = re.search(r'\d+', applicants_raw.replace(',', '')).group() if re.search(r'\d+', applicants_raw.replace(',', '')) else "0"
+                    applicants = re.search(r'\d+', applicants_raw).group() if re.search(r'\d+', applicants_raw) else "N/A"
                 except Exception as e:
                     applicants = "N/A"
                     print(f"Error extracting number of applicants: {e} URL: {job_posting_url}")
@@ -237,11 +241,7 @@ class Search(LinkedIn):
                 try:
                     employees_element = self.webpage.find_element(By.XPATH, '//*[@id="main"]/div/div[2]/div[2]/div/div[2]/div/div[1]/div/section/section/div[1]/div[2]/span[1]')
                     employees_raw = employees_element.text if employees_element else "N/A"
-                    employees_match = re.findall(r'\d+', employees_raw.replace(',', ''))
-                    if employees_match:
-                        employees = '-'.join(employees_match)
-                    else:
-                        employees = "N/A"
+                    employees = re.search(r'[\d,]+', employees_raw).group().replace(',', '') if re.search(r'[\d,]+', employees_raw) else "N/A"
                 except Exception as e:
                     employees = "N/A"
                     print(f"Error extracting number of employees: {e} URL: {job_posting_url}")
@@ -268,8 +268,8 @@ class Search(LinkedIn):
                 job_description = f'"{job_description}"'
                 
                 # Append the collected data to the job_data list
-                job_data.append([title, company, city, country, remote, seniority, posted_time_formatted, today_date, applicants, employees, industry, job_posting_url, job_id, job_description])
-                print(f"Extracted job - Title: {title}, Company: {company}, City: {city}, Country: {country}, Type: {remote}, Seniority: {seniority}, Posted: {posted_time_formatted}, Collected Date: {today_date}, Applicants: {applicants}, Employees: {employees}, Industry: {industry}, Job URL: {job_posting_url}, Job ID: {job_id}, Job Description: {job_description}")
+                job_data.append([self.keywords, self.location, job_id, title, company, city, country, remote, seniority, posted_time_formatted, today_date, applicants, employees, industry, job_posting_url, job_description])
+                print(f"Extracted job - Keywords: {self.keywords}, Location: {self.location}, Title: {title}, Company: {company}, City: {city}, Country: {country}, Type: {remote}, Seniority: {seniority}, Posted: {posted_time_formatted}, Collected Date: {today_date}, Applicants: {applicants}, Employees: {employees}, Industry: {industry}, Job URL: {job_posting_url}, Job ID: {job_id}, Job Description: {job_description}")
 
             except StaleElementReferenceException as e:
                 print(f"Stale element reference: {e}. Skipping this job element.")
@@ -311,7 +311,7 @@ class Search(LinkedIn):
         with open(filename, mode, newline='', encoding='utf-8') as file:
             writer = csv.writer(file)
             if header:
-                writer.writerow(['Title', 'Company', 'City', 'Country', 'Type', 'Seniority', 'Posted', 'Collected Date', 'Applicants', 'Employees', 'Industry', 'Job URL', 'Job ID', 'Job Description'])
+                writer.writerow(['Keywords', 'Search Location', 'Job ID', 'Title', 'Company', 'City', 'Country', 'Type', 'Seniority', 'Posted', 'Collected Date', 'Applicants', 'Employees', 'Industry', 'Job URL', 'Job Description'])
             writer.writerows(job_data)
         print(f"Jobs data saved to {filename}.")
 
@@ -341,3 +341,5 @@ if __name__ == "__main__":
     finally:
         search.save_to_csv(all_job_data, append=True)  # Final save
         search.close()
+
+
